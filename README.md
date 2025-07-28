@@ -1,2 +1,1 @@
-# rork-lucra-wealth-ai
-Created by Rork
+# lucra-wealth-main
