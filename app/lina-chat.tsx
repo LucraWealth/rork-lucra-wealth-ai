@@ -8,12 +8,19 @@ import { theme } from '@/constants/theme';
 import LinaAI from '@/components/LinaAI';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
+// Import the Message interface from LinaAI component
+interface Message {
+  id: string;
+  text: string;
+  sender: 'user' | 'ai';
+}
+
 export default function LinaChatScreen() {
   const router = useRouter();
   const fadeAnim = useSharedValue(0);
   
   // Initial welcome message
-  const initialMessages = [
+  const initialMessages: Message[] = [
     {
       id: '1',
       text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?',
