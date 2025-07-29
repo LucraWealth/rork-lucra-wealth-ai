@@ -37,6 +37,7 @@ import {
   PieChart,
   TrendingUp,
   AlertTriangle,
+  MessageSquare,
 } from "lucide-react-native";
 
 const { width: screenWidth } = Dimensions.get("window");
@@ -325,6 +326,26 @@ export default function HomeScreen() {
                   </View>
                 </TouchableOpacity>
               )}
+              
+              {/* LINA AI Chat Button */}
+              <TouchableOpacity 
+                style={styles.linaAiCard}
+                onPress={() => router.push('/lina-chat')}
+                testID="lina-chat-button"
+              >
+                <View style={styles.cashbackContent}>
+                  <View style={styles.linaAiIconContainer}>
+                    <ShieldCheck size={24} color={theme.colors.info} />
+                  </View>
+                  <View style={styles.cashbackInfo}>
+                    <Text style={styles.cashbackTitle}>Start a new chat with LINA</Text>
+                    <Text style={styles.linaAiDescription}>Your AI financial assistant</Text>
+                  </View>
+                </View>
+                <View style={styles.chevronContainer}>
+                  <ChevronUp size={30} color={theme.colors.info} style={{ transform: [{ rotate: '90deg' }] }} />
+                </View>
+              </TouchableOpacity>
 
               {/* Budget Summary Widget */}
               {budgetCategories.length > 0 && (
@@ -690,6 +711,31 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.colors.background,
+  },
+  linaAiCard: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    backgroundColor: "rgba(74, 143, 231, 0.1)", // Using info color with opacity
+    borderRadius: theme.borderRadius.lg,
+    padding: theme.spacing.md,
+    marginTop: theme.spacing.lg,
+    borderWidth: 1,
+    borderColor: "rgba(74, 143, 231, 0.2)", // Using info color with opacity
+  },
+  linaAiIconContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: "rgba(74, 143, 231, 0.2)", // Using info color with opacity
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: theme.spacing.md,
+  },
+  linaAiDescription: {
+    ...theme.typography.bodySmall,
+    color: theme.colors.info,
+    fontWeight: "500",
   },
   // Custom Header Styles - Copied from notification-settings.tsx
   header: {
