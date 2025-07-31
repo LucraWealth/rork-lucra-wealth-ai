@@ -1,0 +1,21 @@
+{
+    "lucra_features": [
+      {
+        "feature": "smart_save",
+        "description": "Smart Save is an intelligent feature that analyzes your income, spending habits, and upcoming bills. It identifies small, safe-to-save amounts of money and automatically transfers them to your savings, helping you save without thinking about it.",
+        "user_questions": [
+          {"question": "How does Smart Save work?", "answer": "Smart Save analyzes your spending and income to automatically save small amounts you won't miss. For example, if you have a surplus after bills, it might save a portion of that for you. You can adjust its aggressiveness or pause it anytime."},
+          {"question": "Can I trust Smart Save?", "answer": "Yes, Smart Save is designed to be conservative. It will never take money if it detects a low balance or an upcoming bill. You are always in full control."},
+          {"question": "What's the difference between Smart Save and Round-Ups?", "answer": "Round-Ups saves your spare change from transactions. Smart Save is more advanced; it analyzes your overall cash flow to save larger, but still manageable, amounts automatically."}
+        ]
+      },
+      {
+        "feature": "credit_builder_card",
+        "description": "The Lucra Credit Builder Card is a secured credit card designed to help you build or improve your credit score. It reports your responsible usage to all major credit bureaus.",
+        "user_questions": [
+          {"question": "How does the credit builder card help my score?", "answer": "By making regular, on-time payments with the Credit Builder Card, you demonstrate positive credit behavior. We report this to Equifax, Experian, and TransUnion, which helps build your credit history and improve your score over time."},
+          {"question": "Is there a credit check for the card?", "answer": "No, there is no hard credit check to apply for the Lucra Credit Builder Card, making it accessible even if you have a poor or limited credit history."}
+        ]
+      }
+    ]
+  }

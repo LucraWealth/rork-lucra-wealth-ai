@@ -192,7 +192,7 @@ const defaultBudgetCategories: BudgetCategory[] = [
 ];
 
 export const useWalletStore = create<WalletState>()(
-  persist(
+  persist<WalletState>(
     (set, get) => ({
       balance: 1160.76,
       transactions: transactions || [],

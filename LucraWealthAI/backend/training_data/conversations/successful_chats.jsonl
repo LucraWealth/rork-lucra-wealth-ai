@@ -1,0 +1,2000 @@
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Lyft last week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $587"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2261 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2659 for a down payment"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3123"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3521 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1766 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Amazon.com last week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2400"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1225 over 2 years"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3290"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4076 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Netflix.com last year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1601 for a new car"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2574 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2060 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3245 over 6 months"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3648 for a vacation"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Trader Joe's last week?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1602 over 1 year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $639 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4837"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $790 over 1 year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4054"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3434 for a new car"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $823 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2190"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4777"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2835 over 6 months"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1379 for a new laptop"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3082 over 6 months"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4752 over 2 years"}
+{"intent": "spending_analysis", "user_query": "What did I spend at State Farm last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3381"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1306 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2765"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $799 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4161 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1533"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1596 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4836"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3527 for a new car"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1808"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at PG&E last year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1289 for a new laptop"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2880 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3307 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1546 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3470 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4362 over 1 year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $631 for a down payment"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4311 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Best Buy last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $850 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2396 over 1 year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4066 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4302 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4991 over 1 year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2999"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2465 for a new car"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1474 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2292 over 1 year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Clipper Card last week?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2652"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2691 over 6 months"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3056 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $628 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3429 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2851 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1181 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $698 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2665"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2967 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1806"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4584"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $571 over 6 months"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1693 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2432 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1602 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3085"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3229 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $818 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3206 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2216 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1972 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $934 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4314"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2187 over 1 year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2500 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2480 for a new car"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4670"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2608"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Clipper Card last week?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3014"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1583"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1222"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4428"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2857"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Steam Games last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4558 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1128"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3387"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1172 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4115 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this week?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3562"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3668 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3843"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1103 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3164 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Target last year?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4912 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4616 for a new car"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3123 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4261"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2327"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4497 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1661 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $664 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4438 for a new car"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2080 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1070 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2864 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2612 over 6 months"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4239"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1215 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4343 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3069 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3882 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2232 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3535 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Ticketmaster last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1450 over 2 years"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3970"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last month?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1736 for a emergency fund"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2185 for a new car"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4336 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4730 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1513 over 2 years"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Best Buy last week?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1543 over 1 year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2211 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3167 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $581 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2092 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at PG&E last year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4526 for a new car"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1130 over 1 year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2864"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3397"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Expedia last year?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $780 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1651 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $634"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1367"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Starbucks last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1131 over 2 years"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Marriott Hotels last month?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2717 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2666 over 6 months"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4326 for a down payment"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Safeway last year?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1048 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Netflix.com last week?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2006 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1876 over 1 year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Safeway last week?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4383 over 1 year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4327 over 2 years"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at PG&E last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4083 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $922 over 2 years"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $888 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Ticketmaster last year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1464 for a vacation"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3029 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4437 for a new car"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3841 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4088"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1532 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4374"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2006"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4090 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3919 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Target last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3854 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1908 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1671 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3184"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Safeway last week?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3883 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at State Farm last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2571"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4088 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3457 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4005 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2069 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3306 over 2 years"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1153 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3666 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $668 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3005 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3926 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3182 over 6 months"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $945 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3860 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3695 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1330"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2793 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2008 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3313 for a down payment"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4253 over 1 year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $984"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2988 for a new car"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2903 over 2 years"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Safeway last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2646"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4597 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2296 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4857"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $727 over 2 years"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3736"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3720 for a new car"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3901 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4970 over 6 months"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $3431 over 1 year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4117"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last month?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Zara last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1867 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walmart last year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4994 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1863 over 1 year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Amazon.com last week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $837 for a down payment"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3036 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2786 for a vacation"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1672"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1752 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3551 for a emergency fund"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3893"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4979 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2389"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $3542 over 2 years"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3227"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2947"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Ticketmaster last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1649"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1766"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3498 for a down payment"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4043 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3771"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for month"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at CVS Pharmacy last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3396 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2536 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $653"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $749 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2612 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3381"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $582 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4829 over 1 year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4441"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $682 over 2 years"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4363"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3830"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $662"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Starbucks last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $911 over 6 months"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4905"}
+{"intent": "spending_analysis", "user_query": "What did I spend at McDonald's last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Good-RX last month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1380 over 6 months"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1455 for a down payment"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AMC Theatres last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1383"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $990 over 2 years"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4633 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1740 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $839 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Target last month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4033 over 2 years"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4917"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Netflix.com last week?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4274 over 1 year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1205 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $873"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3535 over 1 year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4274"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1311"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2604"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1729"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2929 for a down payment"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $559"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $500 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at McDonald's last week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3594 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1402 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $930 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Ticketmaster last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4914 for a vacation"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2444 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4431"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2167 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4987 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4670 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4664 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1621"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2591 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1126 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $688"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3188 for a new laptop"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1995"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2354 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $645 for a new car"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2820 over 6 months"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3450 for a new car"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1255 for a down payment"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2719 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2121 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4696 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2012 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2374 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4535"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last month?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3991 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4723 for a down payment"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1959"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4493 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1301 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Zara last month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3294 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4464 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1318"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2725 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2569"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Verizon last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3523 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2383"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for month"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $3091 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $705 for a vacation"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2669"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Clipper Card last week?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4044"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Best Buy last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4512 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2344 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3690 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2427"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $669"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4193 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1337"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2752 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1402 for a new car"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3966 for a new car"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2976 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3163"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4423 for a new car"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2012 over 6 months"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2456 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2407"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4544 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $3630 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Airbnb last year?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AMC Theatres last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4795 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3454 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1736"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1008 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2998"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4892 over 6 months"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3354 over 1 year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2609 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the month"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4488 over 2 years"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4878 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2918 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2389 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1306 for a emergency fund"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at State Farm last year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3326 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3086 over 6 months"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4609 over 6 months"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1921 over 1 year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $943 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3531 over 2 years"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3835 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for month"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $719"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3048 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1686"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1111 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $894"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2820 over 1 year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4723 for a new car"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $697 for a new car"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1205 over 6 months"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4154 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4168"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1283"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1660"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3737 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4631"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $805 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1022 for a down payment"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4572 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4126 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3983"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last year?"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Starbucks last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3854"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Marriott Hotels last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2387"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1434 over 2 years"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3569"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1382"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2429 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3645"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at CVS Pharmacy last month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2833 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2071 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1943 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1592 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last year?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4267 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $662 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2522 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4022 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4058 for a down payment"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3605 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Etsy last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4017"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2558 over 1 year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1210 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walmart last month?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2122 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2895 for a vacation"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Trader Joe's last month?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4083 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3347 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $692"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $601 for a down payment"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for month"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4183"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $541 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Subway last month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4398 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3264 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3531"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4213"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1726"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Chevron last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $712"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4730"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3559"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Amazon.com last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2052"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4283 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at PG&E last week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Marriott Hotels last year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sweetgreen last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2699"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4521 over 2 years"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2049 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Netflix.com last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3941 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1679 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1492"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1592 for a down payment"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2971 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Instacart last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3110 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4447 for a new laptop"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2413 for a down payment"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $924 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3838 for a new car"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $733"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2771 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1680 over 6 months"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4420"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $888 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2633 for a vacation"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4519"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this month?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Shell Gas last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2655"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3423"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1445"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2458 for a new laptop"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1264"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1835 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2468 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4124 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2761 for a new car"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3671"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2024"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3018 for a new laptop"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at CVS Pharmacy last year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last year?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1607"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1275 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3194 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Chipotle last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $638 over 2 years"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2473 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2104 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4270 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3721"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at McDonald's last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1937"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2421 for a vacation"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this year?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $798 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $987 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $4793 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1710 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1047 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Good-RX last week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Airbnb last week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2118"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1269"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3872 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4933 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1371 for a vacation"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this week?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Geico last year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2340"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1389 for a down payment"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3952"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $615 over 1 year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last year?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1828 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3540"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $815"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at SoFi Student Loan last year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $930"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3679 for a vacation"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1050 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1240 over 6 months"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3062"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1764 for a new car"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $768 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2013"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1953"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2987 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3204 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2845"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1983 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1607 over 2 years"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1554 for a down payment"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4300"}
+{"intent": "spending_analysis", "user_query": "Show my utilities spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1033 over 1 year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Doordash last month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1511 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1383 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3009 over 6 months"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1130 over 2 years"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4887 for a down payment"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4173 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3035"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at McDonald's last month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2754 for a emergency fund"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1072 for a emergency fund"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1276"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2575"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4487 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1204"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $615"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3208 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3802"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Shell Gas last week?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Subway last month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1139 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $847"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1577 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1147"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1542 for a new car"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3072"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2644 for a new car"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3998"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $1705 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3920"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2737 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2651 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2807"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walmart last month?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Good-RX last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2691"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4297 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $754 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at CVS Pharmacy last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Trader Joe's last year?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1230"}
+{"intent": "spending_analysis", "user_query": "Show my entertainment spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4984 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at SoFi Student Loan last year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4458 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4817 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4936"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2285 for a new laptop"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2830"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $510 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1863 for a down payment"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1554"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3245"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $581"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $862 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4300 over 2 years"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3893 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4384"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2696 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at 24 Hour Fitness last week?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1398"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1368 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4129"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at SoFi Student Loan last week?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Delta last month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4594 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1730 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2689"}
+{"intent": "spending_analysis", "user_query": "What did I spend at United Airlines last month?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3611 over 2 years"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1248 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $588 for a vacation"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1806 for a vacation"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3748"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2772 for a new laptop"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Expedia last year?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $2055 over 2 years"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4774"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3641 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Whole Foods last year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3417"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this year?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4751 for a emergency fund"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1190 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1649"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4199 over 1 year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3048 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1264"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1785"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3564 for a emergency fund"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2387 for a new car"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1878"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2401 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1945 over 2 years"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2205"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $758"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1022 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3299 over 2 years"}
+{"intent": "spending_analysis", "user_query": "What did I spend at SoFi Student Loan last year?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2714"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4955 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last month?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4471 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $1396 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3029 for a new car"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4466 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Comcast last week?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for year"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Zara last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4203 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $580"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4253 for a emergency fund"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4303"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this year?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4261 over 6 months"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2401 for a new car"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Starbucks last year?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2932 for a emergency fund"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Steam Games last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4982 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4411 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2186"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1975 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $3760 over 6 months"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4902 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1748 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3601 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for month"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Target last year?"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for year"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3630"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1229 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $2864 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my health & wellness expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1894 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on health & wellness this month?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "spending_analysis", "user_query": "What did I spend at Instacart last week?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my shopping expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3418 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on entertainment this month?"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4923 for a new car"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $520 over 2 years"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2828"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $581 for a vacation"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Sallie Mae last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4741 for a vacation"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Uber last month?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1282 for a new car"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Lyft last month?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2122 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $2649 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4329 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4920 for a new car"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on travel this year?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Best Buy last week?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3283 over 2 years"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4110 for a vacation"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the week"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2085 for a vacation"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2320 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2742"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this year?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1106"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on groceries this month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $726 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2756"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $4893 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1748"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on utilities this year?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on transportation this week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4695"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3450"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4077 for a new laptop"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Etsy last month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3695"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1173 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $4776 over 6 months"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on bills this week?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $3576 over 1 year"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this month?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $994"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4722"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my utilities expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Comcast last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1946"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Walgreens last week?"}
+{"intent": "spending_analysis", "user_query": "Show my shopping spending for week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "spending_analysis", "user_query": "Show my health & wellness spending for year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on dining this year?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Kroger last week?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1381 for a vacation"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3472 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1231 for a new laptop"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for week"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4501"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AMC Theatres last week?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "spending_analysis", "user_query": "What did I spend at AT&T last week?"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Lyft last month?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my dining expenses for the month"}
+{"intent": "spending_analysis", "user_query": "Show my bills spending for year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4645 for a vacation"}
+{"intent": "spending_analysis", "user_query": "Show my travel spending for week"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4093 for a emergency fund"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my travel expenses for the month"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2411"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2997"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $2533 over 1 year"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $3511 over 2 years"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2718"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2084"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $4864 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Show my transportation spending for month"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3561 over 1 year"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "spending_analysis", "user_query": "What did I spend at Starbucks last month?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $4002 for a down payment"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "Set up a $emergency fund fund of $3594 over 6 months"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $4769 over 6 months"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2817 for a vacation"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $down payment fund of $1973 over 2 years"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my bills expenses for the week"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $4995"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1960 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $2973"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for week"}
+{"intent": "check_balance", "user_query": "current balance please"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for year"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new laptop fund of $1097 over 6 months"}
+{"intent": "spending_analysis", "user_query": "Show my dining spending for month"}
+{"intent": "check_balance", "user_query": "Show me my account balance."}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2343 for a new laptop"}
+{"intent": "check_balance", "user_query": "What's my balance?"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $new car fund of $1078 over 1 year"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $1951 for a down payment"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $3110 for a vacation"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "I want to save $2613 for a new laptop"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $3826"}
+{"intent": "check_balance", "user_query": "How much money do I have?"}
+{"intent": "spending_analysis", "user_query": "How much did I spend on shopping this year?"}
+{"intent": "check_balance", "user_query": "How much do I have left?"}
+{"intent": "check_balance", "user_query": "What's in my checking account?"}
+{"intent": "savings_goal_creation", "user_query": "Help me create a savings goal for $1848"}
+{"intent": "spending_analysis", "user_query": "Show my groceries spending for month"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my groceries expenses for the week"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my entertainment expenses for the year"}
+{"intent": "spending_analysis", "user_query": "Give me a breakdown of my transportation expenses for the year"}
+{"intent": "savings_goal_creation", "user_query": "Set up a $vacation fund of $2675 over 2 years"}
