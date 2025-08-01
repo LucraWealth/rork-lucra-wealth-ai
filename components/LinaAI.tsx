@@ -14,127 +14,108 @@ import { useWalletStore } from '@/store/walletStore';
 import aiService from '@/services/aiService';
 
 // --- DATA STRUCTURES ---
-interface SuggestedAction {
-  title: string;
-  query: string;
-}
+interface SuggestedAction { title: string; query: string; }
+interface ActionToConfirm { action: string; payload: any; }
+interface ActionConfirmation { message: string; actionToConfirm: ActionToConfirm; }
+interface Message { id: string; text: string; sender: 'user' | 'ai'; suggestedActions?: SuggestedAction[]; confirmation?: ActionConfirmation; }
 
-interface Message {
-  id: string;
-  text: string;
-  sender: 'user' | 'ai';
-  suggestedActions?: SuggestedAction[];
-}
-
-// --- PERSISTENT QUICK ACTIONS ---
 const persistentActions: SuggestedAction[] = [
   { title: 'Pay a Bill', query: 'What are my upcoming bills?' },
-  { title: 'My Last Transaction', query: 'What was my last transaction?' },
-  { title: 'Summarize Spending', query: 'Summarize my recent spending' },
+  { title: 'Send Money', query: 'I want to send money' },
+  { title: 'Add Money', query: 'I want to add money' },
 ];
 
 const LinaAI: React.FC = () => {
   const scrollViewRef = useRef<ScrollView>(null);
-  
   const [messages, setMessages] = useState<Message[]>([
-    { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?', sender: 'ai' },
+    { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you?', sender: 'ai' },
   ]);
-  
   const [inputText, setInputText] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [actionToConfirm, setActionToConfirm] = useState<ActionToConfirm | null>(null);
 
-  // Use individual selectors for each piece of state for performance.
-  const balance = useWalletStore((state) => state.balance);
-  const transactions = useWalletStore((state) => state.transactions);
-  const budgetCategories = useWalletStore((state) => state.budgetCategories);
-  const bills = useWalletStore((state) => state.bills);
-  const payBill = useWalletStore((state) => state.payBill);
+  // Get the entire state once. This is clean and simple.
+  const walletState = useWalletStore((state) => state);
 
   useEffect(() => {
     scrollViewRef.current?.scrollToEnd({ animated: true });
-  }, [messages, isLoading]);
+  }, [messages]);
 
   const handleSendMessage = async (customQuery?: string) => {
     const query = customQuery || inputText.trim();
     if (query === '' || isLoading) return;
 
-    // Clear previous suggestions when a new message is sent
-    setMessages(prev => prev.map(msg => ({ ...msg, suggestedActions: [] })));
+    setMessages(prev => prev.map(msg => ({ ...msg, suggestedActions: [], confirmation: undefined })));
+    
+    // --- CONFIRMATION LOGIC ---
+    if (query === 'user_confirm_action') {
+        setIsLoading(true);
+        if (actionToConfirm) {
+            let confirmationText = "Action confirmed!";
+            if (actionToConfirm.action === 'sendMoney') {
+                const { recipient, amount } = actionToConfirm.payload;
+                walletState.sendMoney(recipient, amount);
+                confirmationText = `Sent ${amount} to ${recipient}! 🚀`;
+            } else if (actionToConfirm.action === 'addMoney') {
+                const { amount } = actionToConfirm.payload;
+                walletState.depositMoney(amount, "Added via Lina AI");
+                confirmationText = `Added ${amount} to your balance! 🤑`;
+            }
+            setMessages(prev => [...prev, {id: Date.now().toString(), text: confirmationText, sender: 'ai'}]);
+        }
+        setActionToConfirm(null);
+        setIsLoading(false);
+        return;
+    }
+    if (query === 'user_cancel_action') {
+        setMessages(prev => [...prev, {id: Date.now().toString(), text: "Okay, cancelled.", sender: 'ai'}]);
+        setActionToConfirm(null);
+        return;
+    }
+    // --- END CONFIRMATION LOGIC ---
 
     const userMessage: Message = { id: Date.now().toString(), text: query, sender: 'user' };
     setMessages(prev => [...prev, userMessage]);
     
-    if (!customQuery) {
-        setInputText('');
-    }
+    if (!customQuery) setInputText('');
     setIsLoading(true);
 
     try {
       const userContext = {
-        balance,
-        recent_transactions: transactions.slice(0, 15),
-        budgets: budgetCategories,
-        unpaid_bills: bills.filter(b => !b.isPaid),
+        balance: walletState.balance,
+        recent_transactions: walletState.transactions.slice(0, 10),
+        budgets: walletState.budgetCategories,
+        unpaid_bills: walletState.bills.filter(b => !b.isPaid),
+        contacts: walletState.contacts,
       };
 
       const response = await aiService.processQuery(query, userContext);
       
-      let aiResponseText = 'I seem to be having a little trouble. Could you ask me that again?';
+      let aiResponseText = 'I seem to be having a little trouble.';
       let actions: SuggestedAction[] = [];
+      let confirmation: ActionConfirmation | undefined = undefined;
 
       if (response.success) {
         try {
-          // Attempt to parse the response as JSON to check for actions
           const responseData = JSON.parse(response.response);
-
-          // If it's a JSON object AND has an "action" key, handle it.
-          if (responseData && responseData.action) {
-            
-            if (responseData.action === 'payBill') {
-              const { billId, amount, category } = responseData.payload;
-              // Call the actual Zustand function to update the app state
-              payBill(billId, amount, category); 
-              aiResponseText = responseData.confirmation_message;
-            } 
-            // Add a handler for the new 'payAllBills' action
-            else if (responseData.action === 'payAllBills') {
-              const { billIds } = responseData.payload;
-              const unpaidBillsToPay = bills.filter(b => billIds.includes(b.id));
-              
-              unpaidBillsToPay.forEach(bill => {
-                payBill(bill.id, bill.amount, bill.category);
-              });
-              
-              aiResponseText = responseData.confirmation_message;
-            }
-            // Add other `else if` blocks for future actions here (e.g., sendMoney)
-
-          } else if (responseData && responseData.responseText) {
-            // Handle responses that include quick suggestions
-            aiResponseText = responseData.responseText;
-            actions = responseData.suggestedActions || [];
+          if (responseData && responseData.action === 'confirmationRequest') {
+            setActionToConfirm(responseData.confirmation.actionToConfirm);
+            confirmation = responseData.confirmation;
+            aiResponseText = responseData.confirmation_message;
           } else {
-            // Fallback for unexpected JSON structure
             aiResponseText = response.response;
           }
         } catch (e) {
-          // If parsing fails, it's a regular text response
           aiResponseText = response.response;
         }
       }
       
-      const aiMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        text: aiResponseText,
-        sender: 'ai',
-        suggestedActions: actions,
-      };
-      
+      const aiMessage: Message = { id: (Date.now() + 1).toString(), text: aiResponseText, sender: 'ai', confirmation, suggestedActions: actions };
       setMessages(prev => [...prev, aiMessage]);
 
     } catch (error) {
       console.error("AI Service Error:", error);
-      const errorMessage: Message = { id: (Date.now() + 1).toString(), text: 'Sorry, I couldn\'t connect to the AI service.', sender: 'ai' };
+      const errorMessage: Message = { id: (Date.now() + 1).toString(), text: 'Sorry, I couldn\'t connect.', sender: 'ai' };
       setMessages(prev => [...prev, errorMessage]);
     } finally {
       setIsLoading(false);
@@ -150,14 +131,30 @@ const LinaAI: React.FC = () => {
         <View style={[styles.messageBubble, isUser ? styles.userBubble : styles.aiBubble]}>
           <Text style={[styles.messageText, isUser ? styles.userText : styles.aiText]}>{message.text}</Text>
         </View>
-        {isLastMessage && message.suggestedActions && message.suggestedActions.length > 0 && (
+        
+        {/* Render EITHER a confirmation prompt OR suggested actions on the last message */}
+        {isLastMessage && message.confirmation ? (
+            <View style={styles.confirmationContainer}>
+                <Text style={styles.confirmationText}>{message.confirmation.message}</Text>
+                <View style={styles.confirmationButtonRow}>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.cancelButton]}
+                        onPress={() => handleSendMessage('user_cancel_action')}
+                    >
+                        <Text style={[styles.actionButtonText, styles.cancelButtonText]}>Cancel</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.confirmButton]}
+                        onPress={() => handleSendMessage('user_confirm_action')}
+                    >
+                        <Text style={[styles.actionButtonText, styles.confirmButtonText]}>Yes, Confirm</Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+        ) : isLastMessage && message.suggestedActions && message.suggestedActions.length > 0 && (
           <View style={styles.actionsContainer}>
             {message.suggestedActions.map((action, actionIndex) => (
-              <TouchableOpacity
-                key={actionIndex}
-                style={styles.actionButton}
-                onPress={() => handleSendMessage(action.query)}
-              >
+              <TouchableOpacity key={actionIndex} style={styles.actionButton} onPress={() => handleSendMessage(action.query)}>
                 <Text style={styles.actionButtonText}>{action.title}</Text>
               </TouchableOpacity>
             ))}
@@ -179,7 +176,6 @@ const LinaAI: React.FC = () => {
         )}
       </ScrollView>
 
-      {/* Persistent Quick Actions Bar */}
       <View style={styles.persistentActionsContainer}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16 }}>
             {persistentActions.map((action, index) => (
@@ -221,9 +217,63 @@ const styles = StyleSheet.create({
   sendButtonDisabled: { backgroundColor: '#ccc' },
   sendButtonText: { color: 'white', fontSize: 16, fontWeight: '600' },
   sendButtonTextDisabled: { color: '#999' },
-  actionsContainer: { flexDirection: 'row', flexWrap: 'wrap', marginTop: 8, justifyContent: 'flex-start', marginLeft: 10 },
-  actionButton: { backgroundColor: 'rgba(0, 122, 255, 0.1)', borderRadius: 16, paddingVertical: 8, paddingHorizontal: 12, marginRight: 8, marginBottom: 8 },
-  actionButtonText: { color: '#007AFF', fontWeight: '600', fontSize: 14 },
+  
+  // --- STYLES FOR ACTIONS AND CONFIRMATIONS ---
+  actionsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: 8,
+    justifyContent: 'flex-start',
+    marginLeft: 10,
+  },
+  actionButton: {
+    backgroundColor: 'rgba(0, 122, 255, 0.1)',
+    borderRadius: 16,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    marginRight: 8,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: 'rgba(0, 122, 255, 0.2)',
+  },
+  actionButtonText: {
+    color: '#007AFF',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  confirmationContainer: {
+    marginTop: 10,
+    marginLeft: 10,
+    padding: 10,
+    backgroundColor: '#f0f0f0',
+    borderRadius: 12,
+    width: '80%',
+  },
+  confirmationText: {
+    fontSize: 15,
+    color: '#333',
+    marginBottom: 12,
+    fontWeight: '500',
+    textAlign: 'center',
+  },
+  confirmationButtonRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  },
+  confirmButton: {
+    backgroundColor: '#28a745',
+    borderColor: '#28a745',
+  },
+  confirmButtonText: {
+    color: 'white',
+  },
+  cancelButton: {
+    backgroundColor: '#f0f0f0',
+    borderColor: '#ccc',
+  },
+  cancelButtonText: {
+    color: '#555',
+  },
   persistentActionsContainer: {
     paddingVertical: 8,
     backgroundColor: 'white',
