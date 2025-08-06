@@ -225,7 +225,7 @@ const LinaAI: React.FC = () => {
         {messages.map((msg, index) => renderMessage(msg, index))}
         {isLoading && (
           <View style={styles.loadingContainer}>
-            <ActivityIndicator size="small" color="#666" />
+            <ActivityIndicator size="small" color={theme.colors.primary} />
             <Text style={styles.loadingText}>Lina is typing...</Text>
           </View>
         )}
@@ -242,7 +242,7 @@ const LinaAI: React.FC = () => {
       </View>
 
       <View style={styles.inputBar}>
-        <TextInput style={styles.textInput} value={inputText} onChangeText={setInputText} placeholder="Ask Lina about your finances..." placeholderTextColor="#999" multiline maxLength={500} editable={!isLoading} />
+        <TextInput style={styles.textInput} value={inputText} onChangeText={setInputText} placeholder="Ask Lina about your finances..." placeholderTextColor={theme.colors.placeholder} multiline maxLength={500} editable={!isLoading} />
         <TouchableOpacity style={[styles.sendButton, (isLoading || inputText.trim() === '') && styles.sendButtonDisabled]} onPress={() => handleSendMessage()} disabled={isLoading || inputText.trim() === ''}>
           <Text style={[styles.sendButtonText, (isLoading || inputText.trim() === '') && styles.sendButtonTextDisabled]}>Send</Text>
         </TouchableOpacity>
@@ -252,39 +252,187 @@ const LinaAI: React.FC = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#f5f5f5' },
-  chatArea: { flex: 1 },
-  chatContent: { padding: 16, paddingBottom: 20 },
-  messageContainer: { marginBottom: 12 },
-  userMessageContainer: { alignItems: 'flex-end' },
-  aiMessageContainer: { alignItems: 'flex-start' },
-  messageBubble: { maxWidth: '80%', borderRadius: 16, padding: 12 },
-  userBubble: { backgroundColor: '#007AFF' },
-  aiBubble: { backgroundColor: 'white', borderWidth: 1, borderColor: '#e0e0e0' },
-  messageText: { fontSize: 16, lineHeight: 20 },
-  userText: { color: 'white' },
-  aiText: { color: '#333' },
-  loadingContainer: { flexDirection: 'row', alignItems: 'center', marginTop: 8, marginLeft: 16 },
-  loadingText: { marginLeft: 8, fontSize: 14, color: '#666', fontStyle: 'italic' },
-  inputBar: { flexDirection: 'row', alignItems: 'flex-end', backgroundColor: 'white', borderTopWidth: 1, borderTopColor: '#e0e0e0', padding: 16, paddingTop: 12, paddingBottom: Platform.OS === 'ios' ? 34 : 16 },
-  textInput: { flex: 1, borderWidth: 1, borderColor: '#ddd', borderRadius: 20, paddingHorizontal: 16, paddingVertical: 12, fontSize: 16, maxHeight: 100, marginRight: 12, backgroundColor: '#f9f9f9' },
-  sendButton: { backgroundColor: '#007AFF', borderRadius: 20, paddingHorizontal: 20, paddingVertical: 12, justifyContent: 'center', alignItems: 'center' },
-  sendButtonDisabled: { backgroundColor: '#ccc' },
-  sendButtonText: { color: 'white', fontSize: 16, fontWeight: '600' },
-  sendButtonTextDisabled: { color: '#999' },
-  actionsContainer: { flexDirection: 'row', flexWrap: 'wrap', marginTop: 8, justifyContent: 'flex-start', marginLeft: 10 },
-  actionButton: { borderRadius: 16, paddingVertical: 8, paddingHorizontal: 12, marginRight: 8, marginBottom: 8, borderWidth: 1 },
-  actionButtonText: { fontWeight: '600', fontSize: 14 },
-  confirmationContainer: { marginTop: 10, marginLeft: 10, padding: 10, backgroundColor: '#f0f0f0', borderRadius: 12, width: '80%' },
-  confirmationText: { fontSize: 15, color: '#333', marginBottom: 12, fontWeight: '500', textAlign: 'center' },
-  confirmationButtonRow: { flexDirection: 'row', justifyContent: 'space-around' },
-  confirmButton: { backgroundColor: '#28a745', borderColor: '#28a745' },
-  confirmButtonText: { color: 'white' },
-  cancelButton: { backgroundColor: 'white', borderColor: '#ccc' },
-  cancelButtonText: { color: '#555' },
-  persistentActionsContainer: { paddingVertical: 8, backgroundColor: 'white', borderTopWidth: 1, borderTopColor: '#e0e0e0' },
-  persistentActionButton: { backgroundColor: '#f0f0f0', borderRadius: 18, paddingVertical: 10, paddingHorizontal: 16, marginRight: 10 },
-  persistentActionButtonText: { color: '#333', fontWeight: '500', fontSize: 14 },
+  container: { 
+    flex: 1, 
+    backgroundColor: theme.colors.background 
+  },
+  chatArea: { 
+    flex: 1 
+  },
+  chatContent: { 
+    padding: theme.spacing.md, 
+    paddingBottom: theme.spacing.lg 
+  },
+  messageContainer: { 
+    marginBottom: theme.spacing.md 
+  },
+  userMessageContainer: { 
+    alignItems: 'flex-end' 
+  },
+  aiMessageContainer: { 
+    alignItems: 'flex-start' 
+  },
+  messageBubble: { 
+    maxWidth: '80%', 
+    borderRadius: theme.borderRadius.lg, 
+    padding: theme.spacing.md,
+    ...theme.shadows.small
+  },
+  userBubble: { 
+    backgroundColor: theme.colors.primary,
+    borderWidth: 1,
+    borderColor: 'rgba(74, 227, 168, 0.3)'
+  },
+  aiBubble: { 
+    backgroundColor: theme.colors.card, 
+    borderWidth: 1, 
+    borderColor: theme.colors.border 
+  },
+  messageText: { 
+    fontSize: 16, 
+    lineHeight: 22 
+  },
+  userText: { 
+    color: '#121212',
+    fontWeight: '500'
+  },
+  aiText: { 
+    color: theme.colors.text 
+  },
+  loadingContainer: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    marginTop: theme.spacing.sm, 
+    marginLeft: theme.spacing.md 
+  },
+  loadingText: { 
+    marginLeft: theme.spacing.sm, 
+    fontSize: 14, 
+    color: theme.colors.textSecondary, 
+    fontStyle: 'italic' 
+  },
+  inputBar: { 
+    flexDirection: 'row', 
+    alignItems: 'flex-end', 
+    backgroundColor: theme.colors.card, 
+    borderTopWidth: 1, 
+    borderTopColor: theme.colors.border, 
+    padding: theme.spacing.md, 
+    paddingTop: theme.spacing.md, 
+    paddingBottom: Platform.OS === 'ios' ? 34 : theme.spacing.md 
+  },
+  textInput: { 
+    flex: 1, 
+    borderWidth: 1, 
+    borderColor: theme.colors.border, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingHorizontal: theme.spacing.md, 
+    paddingVertical: theme.spacing.md, 
+    fontSize: 16, 
+    maxHeight: 100, 
+    marginRight: theme.spacing.md, 
+    backgroundColor: theme.colors.surfaceMid,
+    color: theme.colors.text
+  },
+  sendButton: { 
+    backgroundColor: theme.colors.primary, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingHorizontal: 20, 
+    paddingVertical: 12, 
+    justifyContent: 'center', 
+    alignItems: 'center',
+    ...theme.shadows.small
+  },
+  sendButtonDisabled: { 
+    backgroundColor: theme.colors.surfaceHigh,
+    opacity: 0.5
+  },
+  sendButtonText: { 
+    color: '#121212', 
+    fontSize: 16, 
+    fontWeight: '600' 
+  },
+  sendButtonTextDisabled: { 
+    color: theme.colors.textSecondary 
+  },
+  actionsContainer: { 
+    flexDirection: 'row', 
+    flexWrap: 'wrap', 
+    marginTop: theme.spacing.sm, 
+    justifyContent: 'flex-start', 
+    marginLeft: theme.spacing.sm 
+  },
+  actionButton: { 
+    borderRadius: theme.borderRadius.md, 
+    paddingVertical: theme.spacing.sm, 
+    paddingHorizontal: theme.spacing.md, 
+    marginRight: theme.spacing.sm, 
+    marginBottom: theme.spacing.sm, 
+    borderWidth: 1,
+    borderColor: theme.colors.primary,
+    backgroundColor: 'rgba(74, 227, 168, 0.1)'
+  },
+  actionButtonText: { 
+    fontWeight: '600', 
+    fontSize: 14,
+    color: theme.colors.primary
+  },
+  confirmationContainer: { 
+    marginTop: theme.spacing.sm, 
+    marginLeft: theme.spacing.sm, 
+    padding: theme.spacing.md, 
+    backgroundColor: theme.colors.surfaceMid, 
+    borderRadius: theme.borderRadius.md, 
+    width: '80%',
+    borderWidth: 1,
+    borderColor: theme.colors.border
+  },
+  confirmationText: { 
+    fontSize: 15, 
+    color: theme.colors.text, 
+    marginBottom: theme.spacing.md, 
+    fontWeight: '500', 
+    textAlign: 'center' 
+  },
+  confirmationButtonRow: { 
+    flexDirection: 'row', 
+    justifyContent: 'space-around' 
+  },
+  confirmButton: { 
+    backgroundColor: theme.colors.success, 
+    borderColor: 'rgba(74, 227, 168, 0.3)' 
+  },
+  confirmButtonText: { 
+    color: '#121212',
+    fontWeight: '600'
+  },
+  cancelButton: { 
+    backgroundColor: theme.colors.surfaceHigh, 
+    borderColor: theme.colors.border 
+  },
+  cancelButtonText: { 
+    color: theme.colors.text 
+  },
+  persistentActionsContainer: { 
+    paddingVertical: theme.spacing.sm, 
+    backgroundColor: theme.colors.card, 
+    borderTopWidth: 1, 
+    borderTopColor: theme.colors.border 
+  },
+  persistentActionButton: { 
+    backgroundColor: theme.colors.surfaceMid, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingVertical: theme.spacing.sm, 
+    paddingHorizontal: theme.spacing.md, 
+    marginRight: theme.spacing.sm,
+    borderWidth: 1,
+    borderColor: theme.colors.border
+  },
+  persistentActionButtonText: { 
+    color: theme.colors.text, 
+    fontWeight: '500', 
+    fontSize: 14 
+  },
 });
 
 export default LinaAI;
