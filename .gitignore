@@ -2,6 +2,18 @@
 
 # dependencies
 node_modules/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-selfcheck.json
+*.egg-info/
+.DS_Store
 
 # Expo
 .expo/
