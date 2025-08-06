@@ -10,36 +10,75 @@ import {
   StyleSheet,
   ActivityIndicator,
 } from 'react-native';
+// --- CORRECTED UUID IMPORTS ---
+// This import must come first to polyfill crypto requirements.
+import 'react-native-get-random-values';
+import { v4 as uuidv4 } from 'uuid';
+
 import { useWalletStore } from '@/store/walletStore';
 import aiService from '@/services/aiService';
+import { theme } from '@/constants/theme';
 
 // --- DATA STRUCTURES ---
-interface SuggestedAction { title: string; query: string; }
-interface ActionToConfirm { action: string; payload: any; }
-interface ActionConfirmation { message: string; actionToConfirm: ActionToConfirm; }
-interface Message { id: string; text: string; sender: 'user' | 'ai'; suggestedActions?: SuggestedAction[]; confirmation?: ActionConfirmation; }
+interface SuggestedAction {
+  title: string;
+  query: string;
+}
+
+interface ActionToConfirm {
+  action: string;
+  payload: any;
+}
+
+interface ActionConfirmation {
+  message: string;
+  actionToConfirm: ActionToConfirm;
+}
+
+interface Message {
+  id: string;
+  text: string;
+  sender: 'user' | 'ai';
+  suggestedActions?: SuggestedAction[];
+  confirmation?: ActionConfirmation;
+}
 
 const persistentActions: SuggestedAction[] = [
   { title: 'Pay a Bill', query: 'What are my upcoming bills?' },
   { title: 'Send Money', query: 'I want to send money' },
-  { title: 'Add Money', query: 'I want to add money' },
+  { title: 'Set a Budget', query: 'Set my shopping budget to $250' },
 ];
 
 const LinaAI: React.FC = () => {
   const scrollViewRef = useRef<ScrollView>(null);
+  
   const [messages, setMessages] = useState<Message[]>([
     { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you?', sender: 'ai' },
   ]);
+  
   const [inputText, setInputText] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [actionToConfirm, setActionToConfirm] = useState<ActionToConfirm | null>(null);
 
-  // Get the entire state once. This is clean and simple.
-  const walletState = useWalletStore((state) => state);
+  // Generate a unique, persistent session ID for this chat instance.
+  const [sessionId] = useState(uuidv4());
+
+  // Use individual selectors for each piece of state and action for performance.
+  const balance = useWalletStore((state) => state.balance);
+  const transactions = useWalletStore((state) => state.transactions);
+  const budgetCategories = useWalletStore((state) => state.budgetCategories);
+  const bills = useWalletStore((state) => state.bills);
+  const contacts = useWalletStore((state) => state.contacts);
+  const payBill = useWalletStore((state) => state.payBill);
+  const sendMoney = useWalletStore((state) => state.sendMoney);
+  const depositMoney = useWalletStore((state) => state.depositMoney);
+  const setBudgetLimit = useWalletStore((state) => state.setBudgetLimit);
+  const addBudgetCategory = useWalletStore((state) => state.addBudgetCategory);
+  const toggleAutoPay = useWalletStore((state) => state.toggleAutoPay);
 
   useEffect(() => {
     scrollViewRef.current?.scrollToEnd({ animated: true });
-  }, [messages]);
+  }, [messages, isLoading]);
 
   const handleSendMessage = async (customQuery?: string) => {
     const query = customQuery || inputText.trim();
@@ -52,20 +91,35 @@ const LinaAI: React.FC = () => {
         setIsLoading(true);
         if (actionToConfirm) {
             let confirmationText = "Action confirmed!";
-            if (actionToConfirm.action === 'sendMoney') {
+            if (actionToConfirm.action === 'payBill') {
+                const { billId, amount, category } = actionToConfirm.payload;
+                payBill(billId, amount, category);
+                confirmationText = "Done! 💸 Your bill has been paid.";
+            } else if (actionToConfirm.action === 'sendMoney') {
                 const { recipient, amount } = actionToConfirm.payload;
-                walletState.sendMoney(recipient, amount);
-                confirmationText = `Sent ${amount} to ${recipient}! 🚀`;
+                sendMoney(recipient, amount);
+                confirmationText = `Sent $${amount.toFixed(2)} to ${recipient}! 🚀`;
             } else if (actionToConfirm.action === 'addMoney') {
                 const { amount } = actionToConfirm.payload;
-                walletState.depositMoney(amount, "Added via Lina AI");
-                confirmationText = `Added ${amount} to your balance! 🤑`;
+                depositMoney(amount, "Added via Lina AI");
+                confirmationText = `Added $${amount.toFixed(2)} to your balance! 🤑`;
+            } else if (actionToConfirm.action === 'setBudgetLimit') {
+                const { categoryId, limit } = actionToConfirm.payload;
+                setBudgetLimit(categoryId, limit);
+                confirmationText = `Got it! I've updated your budget limit. ✅`;
+            } else if (actionToConfirm.action === 'addBudgetCategory') {
+                addBudgetCategory({ name: actionToConfirm.payload.name, limit: actionToConfirm.payload.limit, color: theme.colors.primary, icon: "HelpCircle" });
+                confirmationText = `Perfect! I've created a new budget for ${actionToConfirm.payload.name}.`;
+            } else if (actionToConfirm.action === 'toggleAutoPay') {
+                const { billId } = actionToConfirm.payload;
+                toggleAutoPay(billId);
+                confirmationText = `Okay, I've updated the autopay settings for that bill. 👍`;
             }
             setMessages(prev => [...prev, {id: Date.now().toString(), text: confirmationText, sender: 'ai'}]);
         }
         setActionToConfirm(null);
         setIsLoading(false);
-        return;
+        return; 
     }
     if (query === 'user_cancel_action') {
         setMessages(prev => [...prev, {id: Date.now().toString(), text: "Okay, cancelled.", sender: 'ai'}]);
@@ -82,14 +136,16 @@ const LinaAI: React.FC = () => {
 
     try {
       const userContext = {
-        balance: walletState.balance,
-        recent_transactions: walletState.transactions.slice(0, 10),
-        budgets: walletState.budgetCategories,
-        unpaid_bills: walletState.bills.filter(b => !b.isPaid),
-        contacts: walletState.contacts,
+        balance,
+        recent_transactions: transactions.slice(0, 10),
+        budgets: budgetCategories,
+        unpaid_bills: bills.filter(b => !b.isPaid),
+        paid_bills: bills.filter(b => b.isPaid),
+        contacts,
       };
 
-      const response = await aiService.processQuery(query, userContext);
+      // Pass the sessionId with every request
+      const response = await aiService.processQuery(query, userContext, sessionId);
       
       let aiResponseText = 'I seem to be having a little trouble.';
       let actions: SuggestedAction[] = [];
@@ -127,12 +183,11 @@ const LinaAI: React.FC = () => {
     const isLastMessage = index === messages.length - 1;
 
     return (
-      <View key={message.id} style={[styles.messageContainer, isUser ? styles.userMessageContainer : styles.aiMessageContainer]}>
+      <View key={`${message.id}-${index}`} style={[styles.messageContainer, isUser ? styles.userMessageContainer : styles.aiMessageContainer]}>
         <View style={[styles.messageBubble, isUser ? styles.userBubble : styles.aiBubble]}>
           <Text style={[styles.messageText, isUser ? styles.userText : styles.aiText]}>{message.text}</Text>
         </View>
         
-        {/* Render EITHER a confirmation prompt OR suggested actions on the last message */}
         {isLastMessage && message.confirmation ? (
             <View style={styles.confirmationContainer}>
                 <Text style={styles.confirmationText}>{message.confirmation.message}</Text>
@@ -217,81 +272,19 @@ const styles = StyleSheet.create({
   sendButtonDisabled: { backgroundColor: '#ccc' },
   sendButtonText: { color: 'white', fontSize: 16, fontWeight: '600' },
   sendButtonTextDisabled: { color: '#999' },
-  
-  // --- STYLES FOR ACTIONS AND CONFIRMATIONS ---
-  actionsContainer: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    marginTop: 8,
-    justifyContent: 'flex-start',
-    marginLeft: 10,
-  },
-  actionButton: {
-    backgroundColor: 'rgba(0, 122, 255, 0.1)',
-    borderRadius: 16,
-    paddingVertical: 8,
-    paddingHorizontal: 12,
-    marginRight: 8,
-    marginBottom: 8,
-    borderWidth: 1,
-    borderColor: 'rgba(0, 122, 255, 0.2)',
-  },
-  actionButtonText: {
-    color: '#007AFF',
-    fontWeight: '600',
-    fontSize: 14,
-  },
-  confirmationContainer: {
-    marginTop: 10,
-    marginLeft: 10,
-    padding: 10,
-    backgroundColor: '#f0f0f0',
-    borderRadius: 12,
-    width: '80%',
-  },
-  confirmationText: {
-    fontSize: 15,
-    color: '#333',
-    marginBottom: 12,
-    fontWeight: '500',
-    textAlign: 'center',
-  },
-  confirmationButtonRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  confirmButton: {
-    backgroundColor: '#28a745',
-    borderColor: '#28a745',
-  },
-  confirmButtonText: {
-    color: 'white',
-  },
-  cancelButton: {
-    backgroundColor: '#f0f0f0',
-    borderColor: '#ccc',
-  },
-  cancelButtonText: {
-    color: '#555',
-  },
-  persistentActionsContainer: {
-    paddingVertical: 8,
-    backgroundColor: 'white',
-    borderTopWidth: 1,
-    borderTopColor: '#e0e0e0',
-  },
-  persistentActionButton: {
-    backgroundColor: '#f0f0f0',
-    borderRadius: 18,
-    paddingVertical: 10,
-    paddingHorizontal: 16,
-    marginRight: 10,
-  },
-  persistentActionButtonText: {
-    color: '#333',
-    fontWeight: '500',
-    fontSize: 14,
-  },
+  actionsContainer: { flexDirection: 'row', flexWrap: 'wrap', marginTop: 8, justifyContent: 'flex-start', marginLeft: 10 },
+  actionButton: { borderRadius: 16, paddingVertical: 8, paddingHorizontal: 12, marginRight: 8, marginBottom: 8, borderWidth: 1 },
+  actionButtonText: { fontWeight: '600', fontSize: 14 },
+  confirmationContainer: { marginTop: 10, marginLeft: 10, padding: 10, backgroundColor: '#f0f0f0', borderRadius: 12, width: '80%' },
+  confirmationText: { fontSize: 15, color: '#333', marginBottom: 12, fontWeight: '500', textAlign: 'center' },
+  confirmationButtonRow: { flexDirection: 'row', justifyContent: 'space-around' },
+  confirmButton: { backgroundColor: '#28a745', borderColor: '#28a745' },
+  confirmButtonText: { color: 'white' },
+  cancelButton: { backgroundColor: 'white', borderColor: '#ccc' },
+  cancelButtonText: { color: '#555' },
+  persistentActionsContainer: { paddingVertical: 8, backgroundColor: 'white', borderTopWidth: 1, borderTopColor: '#e0e0e0' },
+  persistentActionButton: { backgroundColor: '#f0f0f0', borderRadius: 18, paddingVertical: 10, paddingHorizontal: 16, marginRight: 10 },
+  persistentActionButtonText: { color: '#333', fontWeight: '500', fontSize: 14 },
 });
 
 export default LinaAI;
