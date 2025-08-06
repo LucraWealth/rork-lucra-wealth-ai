@@ -25,7 +25,9 @@
       "package": "app.rork.lucrawealth-i47c4f7b"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true

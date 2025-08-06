@@ -60,7 +60,7 @@ export default function LinaChatScreen() {
             <Text style={styles.subtitle}>Your AI Financial Assistant</Text>
           </View>
           <View style={styles.iconContainer}>
-            <MessageSquare size={24} color={theme.colors.info} />
+            <MessageSquare size={24} color={theme.colors.primary} />
           </View>
         </View>
         
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     ...theme.typography.caption,
-    color: theme.colors.info,
+    color: theme.colors.primary,
     marginTop: 2,
   },
   iconContainer: {
