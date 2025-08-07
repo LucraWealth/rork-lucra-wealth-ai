@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 // --- CORRECTED UUID IMPORTS ---
 // This import must come first to polyfill crypto requirements.
+// Import polyfill first to avoid crypto errors
 import 'react-native-get-random-values';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -49,8 +50,8 @@ const persistentActions: SuggestedAction[] = [
   { title: 'Set a Budget', query: 'Set my shopping budget to $250' },
 ];
 
-// Clean typing indicator
-const TypingIndicator: React.FC = () => {
+// Typing indicator component
+const TypingIndicator = () => {
   const [dots, setDots] = useState('');
 
   useEffect(() => {
@@ -75,12 +76,18 @@ const TypingIndicator: React.FC = () => {
   );
 };
 
-const LinaAI: React.FC = () => {
+interface LinaAIProps {
+  initialMessages?: Message[];
+}
+
+const LinaAI = ({ initialMessages }: LinaAIProps = {}) => {
   const scrollViewRef = useRef<ScrollView>(null);
   
-  const [messages, setMessages] = useState<Message[]>([
-    { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?', sender: 'ai' },
-  ]);
+  const [messages, setMessages] = useState<Message[]>(
+    initialMessages || [
+      { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?', sender: 'ai' },
+    ]
+  );
   
   const [inputText, setInputText] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
