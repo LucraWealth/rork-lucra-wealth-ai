@@ -24,7 +24,7 @@ interface AISuccessResponse {
       // --- THIS IS THE MOST IMPORTANT LINE ---
       // Replace '192.168.2.35' with your computer's actual local IP address.
       // Your Python server logs show this address when it starts up.
-      this.baseURL = 'http://192.168.2.35:5000'; 
+      this.baseURL = 'https://lucra-wealth-ai-lina.onrender.com'; 
     }
   
     /**
