@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet, TouchableOpacity, Text, Platform } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -10,26 +10,20 @@ import Animated, { useAnimatedStyle, useSharedValue, withTiming, withSpring } fr
 
 export default function LinaChatScreen() {
   const router = useRouter();
-  // Use platform-specific animation approach
   const fadeAnim = useSharedValue(0);
-  const scaleAnim = useSharedValue(Platform.OS === 'web' ? 1 : 0.95);
+  const scaleAnim = useSharedValue(0.95);
 
   useEffect(() => {
-    // Simple fade animation that works on all platforms
     fadeAnim.value = withTiming(1, { duration: 600 });
-    
-    // Only apply spring animation on native platforms
-    if (Platform.OS !== 'web') {
-      scaleAnim.value = withSpring(1, {
-        damping: 15,
-        stiffness: 150,
-      });
-    }
-  }, [fadeAnim, scaleAnim]);
+    scaleAnim.value = withSpring(1, {
+      damping: 15,
+      stiffness: 150,
+    });
+  }, []);
 
   const animatedStyle = useAnimatedStyle(() => ({
     opacity: fadeAnim.value,
-    transform: Platform.OS === 'web' ? [] : [{ scale: scaleAnim.value }],
+    transform: [{ scale: scaleAnim.value }],
   }));
 
   const handleGoBack = () => {
