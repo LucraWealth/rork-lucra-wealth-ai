@@ -1,13 +1,10 @@
 import { Stack } from 'expo-router';
-import { useEffect } from 'react';
-import { useColorScheme, Platform, View } from 'react-native';
+import { Platform, View } from 'react-native';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { theme } from '@/constants/theme';
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <ThemeProvider>
       <GestureHandlerRootView style={{ flex: 1, backgroundColor: theme.colors.background }}>
@@ -89,6 +86,7 @@ export default function RootLayout() {
             <Stack.Screen name="notification-settings" options={{ headerShown: false }} />
             <Stack.Screen name="bill-payment-confirm" options={{ headerShown: false }} />
             <Stack.Screen name="expense-category/[category]" options={{ headerShown: false }} />
+            <Stack.Screen name="lina-chat" options={{ headerShown: false }} />
           </Stack>
         </View>
       </GestureHandlerRootView>
