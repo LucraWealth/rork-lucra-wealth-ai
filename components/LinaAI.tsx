@@ -49,37 +49,11 @@ const persistentActions: SuggestedAction[] = [
   { title: 'Set a Budget', query: 'Set my shopping budget to $250' },
 ];
 
-// Clean typing indicator
-const TypingIndicator: React.FC = () => {
-  const [dots, setDots] = useState('');
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDots(prev => {
-        if (prev === '...') return '';
-        return prev + '.';
-      });
-    }, 500);
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <View style={styles.typingContainer}>
-      <View style={styles.aiAvatar}>
-        <Text style={styles.avatarText}>L</Text>
-      </View>
-      <View style={styles.typingBubble}>
-        <Text style={styles.typingText}>Lina is typing{dots}</Text>
-      </View>
-    </View>
-  );
-};
-
 const LinaAI: React.FC = () => {
   const scrollViewRef = useRef<ScrollView>(null);
   
   const [messages, setMessages] = useState<Message[]>([
-    { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?', sender: 'ai' },
+    { id: '1', text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you?', sender: 'ai' },
   ]);
   
   const [inputText, setInputText] = useState<string>('');
@@ -209,64 +183,33 @@ const LinaAI: React.FC = () => {
     const isLastMessage = index === messages.length - 1;
 
     return (
-      <View key={`${message.id}-${index}`} style={styles.messageWrapper}>
-        {/* Message with avatar */}
-        <View style={[styles.messageRow, isUser && styles.userMessageRow]}>
-          {/* AI Avatar */}
-          {!isUser && (
-            <View style={styles.aiAvatar}>
-              <Text style={styles.avatarText}>L</Text>
-            </View>
-          )}
-          
-          {/* Message bubble */}
-          <View style={[styles.messageContainer, isUser ? styles.userContainer : styles.aiContainer]}>
-            <Text style={[styles.senderLabel, isUser ? styles.userLabel : styles.aiLabel]}>
-              {isUser ? 'You' : 'Lina'}
-            </Text>
-            <View style={[styles.messageBubble, isUser ? styles.userBubble : styles.aiBubble]}>
-              <Text style={[styles.messageText, isUser ? styles.userText : styles.aiText]}>
-                {message.text}
-              </Text>
-            </View>
-          </View>
-          
-          {/* User spacer */}
-          {isUser && <View style={styles.userSpacer} />}
+      <View key={`${message.id}-${index}`} style={[styles.messageContainer, isUser ? styles.userMessageContainer : styles.aiMessageContainer]}>
+        <View style={[styles.messageBubble, isUser ? styles.userBubble : styles.aiBubble]}>
+          <Text style={[styles.messageText, isUser ? styles.userText : styles.aiText]}>{message.text}</Text>
         </View>
         
-        {/* Confirmation UI */}
-        {isLastMessage && message.confirmation && (
-          <View style={styles.confirmationWrapper}>
-            <View style={styles.confirmationCard}>
-              <Text style={styles.confirmationMessage}>{message.confirmation.message}</Text>
-              <View style={styles.confirmationButtons}>
-                <TouchableOpacity
-                  style={[styles.confirmationButton, styles.cancelButton]}
-                  onPress={() => handleSendMessage('user_cancel_action')}
-                >
-                  <Text style={styles.cancelText}>Cancel</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={[styles.confirmationButton, styles.confirmButton]}
-                  onPress={() => handleSendMessage('user_confirm_action')}
-                >
-                  <Text style={styles.confirmText}>Confirm</Text>
-                </TouchableOpacity>
-              </View>
+        {isLastMessage && message.confirmation ? (
+            <View style={styles.confirmationContainer}>
+                <Text style={styles.confirmationText}>{message.confirmation.message}</Text>
+                <View style={styles.confirmationButtonRow}>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.cancelButton]}
+                        onPress={() => handleSendMessage('user_cancel_action')}
+                    >
+                        <Text style={[styles.actionButtonText, styles.cancelButtonText]}>Cancel</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.confirmButton]}
+                        onPress={() => handleSendMessage('user_confirm_action')}
+                    >
+                        <Text style={[styles.actionButtonText, styles.confirmButtonText]}>Yes, Confirm</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
-          </View>
-        )}
-        
-        {/* Suggested actions */}
-        {isLastMessage && message.suggestedActions && message.suggestedActions.length > 0 && (
-          <View style={styles.actionsWrapper}>
+        ) : isLastMessage && message.suggestedActions && message.suggestedActions.length > 0 && (
+          <View style={styles.actionsContainer}>
             {message.suggestedActions.map((action, actionIndex) => (
-              <TouchableOpacity 
-                key={actionIndex} 
-                style={styles.actionButton} 
-                onPress={() => handleSendMessage(action.query)}
-              >
+              <TouchableOpacity key={actionIndex} style={styles.actionButton} onPress={() => handleSendMessage(action.query)}>
                 <Text style={styles.actionButtonText}>{action.title}</Text>
               </TouchableOpacity>
             ))}
@@ -277,366 +220,218 @@ const LinaAI: React.FC = () => {
   };
 
   return (
-    <KeyboardAvoidingView 
-      style={styles.container} 
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'} 
-      keyboardVerticalOffset={Platform.OS === 'ios' ? 90 : 0}
-    >
-      {/* Chat area */}
-      <ScrollView 
-        ref={scrollViewRef} 
-        style={styles.chatArea} 
-        contentContainerStyle={styles.chatContent} 
-        showsVerticalScrollIndicator={false}
-      >
+    <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === 'ios' ? 'padding' : 'height'} keyboardVerticalOffset={Platform.OS === 'ios' ? 90 : 0}>
+      <ScrollView ref={scrollViewRef} style={styles.chatArea} contentContainerStyle={styles.chatContent} showsVerticalScrollIndicator={false}>
         {messages.map((msg, index) => renderMessage(msg, index))}
-        {isLoading && <TypingIndicator />}
+        {isLoading && (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="small" color={theme.colors.primary} />
+            <Text style={styles.loadingText}>Lina is typing...</Text>
+          </View>
+        )}
       </ScrollView>
 
-      {/* Quick actions */}
-      <View style={styles.quickActionsContainer}>
-        <ScrollView 
-          horizontal 
-          showsHorizontalScrollIndicator={false} 
-          contentContainerStyle={styles.quickActionsContent}
-        >
-          {persistentActions.map((action, index) => (
-            <TouchableOpacity 
-              key={index} 
-              style={styles.quickActionButton} 
-              onPress={() => handleSendMessage(action.query)}
-            >
-              <Text style={styles.quickActionText}>{action.title}</Text>
-            </TouchableOpacity>
-          ))}
+      <View style={styles.persistentActionsContainer}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16 }}>
+            {persistentActions.map((action, index) => (
+                <TouchableOpacity key={index} style={styles.persistentActionButton} onPress={() => handleSendMessage(action.query)}>
+                    <Text style={styles.persistentActionButtonText}>{action.title}</Text>
+                </TouchableOpacity>
+            ))}
         </ScrollView>
       </View>
 
-      {/* Input bar */}
-      <View style={styles.inputSection}>
-        <View style={styles.inputWrapper}>
-          <TextInput 
-            style={styles.textInput} 
-            value={inputText} 
-            onChangeText={setInputText} 
-            placeholder="Ask Lina anything about your finances..." 
-            placeholderTextColor={theme.colors.placeholder} 
-            multiline 
-            maxLength={500} 
-            editable={!isLoading} 
-          />
-          <TouchableOpacity 
-            style={[styles.sendButton, (isLoading || inputText.trim() === '') && styles.sendButtonDisabled]} 
-            onPress={() => handleSendMessage()} 
-            disabled={isLoading || inputText.trim() === ''}
-          >
-            <Text style={[styles.sendButtonText, (isLoading || inputText.trim() === '') && styles.sendButtonTextDisabled]}>
-              Send
-            </Text>
-          </TouchableOpacity>
-        </View>
+      <View style={styles.inputBar}>
+        <TextInput style={styles.textInput} value={inputText} onChangeText={setInputText} placeholder="Ask Lina about your finances..." placeholderTextColor={theme.colors.placeholder} multiline maxLength={500} editable={!isLoading} />
+        <TouchableOpacity style={[styles.sendButton, (isLoading || inputText.trim() === '') && styles.sendButtonDisabled]} onPress={() => handleSendMessage()} disabled={isLoading || inputText.trim() === ''}>
+          <Text style={[styles.sendButtonText, (isLoading || inputText.trim() === '') && styles.sendButtonTextDisabled]}>Send</Text>
+        </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: theme.colors.background,
+  container: { 
+    flex: 1, 
+    backgroundColor: theme.colors.background 
   },
-  chatArea: {
-    flex: 1,
+  chatArea: { 
+    flex: 1 
   },
-  chatContent: {
-    padding: 16,
-    paddingBottom: 24,
+  chatContent: { 
+    padding: theme.spacing.md, 
+    paddingBottom: theme.spacing.lg 
   },
-  
-  // Message Layout
-  messageWrapper: {
-    marginBottom: 24,
+  messageContainer: { 
+    marginBottom: theme.spacing.md 
   },
-  messageRow: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
+  userMessageContainer: { 
+    alignItems: 'flex-end' 
   },
-  userMessageRow: {
-    flexDirection: 'row-reverse',
+  aiMessageContainer: { 
+    alignItems: 'flex-start' 
   },
-  messageContainer: {
-    flex: 1,
-    maxWidth: '75%',
+  messageBubble: { 
+    maxWidth: '80%', 
+    borderRadius: theme.borderRadius.lg, 
+    padding: theme.spacing.md,
+    ...theme.shadows.small
   },
-  userContainer: {
-    alignItems: 'flex-end',
-  },
-  aiContainer: {
-    alignItems: 'flex-start',
-  },
-  userSpacer: {
-    width: 48,
-  },
-  
-  // Avatar
-  aiAvatar: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
+  userBubble: { 
     backgroundColor: theme.colors.primary,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginRight: 12,
-    marginTop: 24,
-    shadowColor: theme.colors.primary,
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 6,
-    elevation: 4,
+    borderWidth: 1,
+    borderColor: 'rgba(74, 227, 168, 0.3)'
   },
-  avatarText: {
+  aiBubble: { 
+    backgroundColor: theme.colors.card, 
+    borderWidth: 1, 
+    borderColor: theme.colors.border 
+  },
+  messageText: { 
+    fontSize: 16, 
+    lineHeight: 22 
+  },
+  userText: { 
     color: '#121212',
-    fontSize: 16,
-    fontWeight: '700',
+    fontWeight: '500'
   },
-  
-  // Message Labels & Bubbles
-  senderLabel: {
-    fontSize: 12,
-    fontWeight: '600',
-    marginBottom: 6,
-    paddingHorizontal: 4,
+  aiText: { 
+    color: theme.colors.text 
   },
-  userLabel: {
-    color: theme.colors.textSecondary,
-    textAlign: 'right',
+  loadingContainer: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    marginTop: theme.spacing.sm, 
+    marginLeft: theme.spacing.md 
   },
-  aiLabel: {
-    color: theme.colors.primary,
+  loadingText: { 
+    marginLeft: theme.spacing.sm, 
+    fontSize: 14, 
+    color: theme.colors.textSecondary, 
+    fontStyle: 'italic' 
   },
-  messageBubble: {
-    borderRadius: 20,
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 2,
+  inputBar: { 
+    flexDirection: 'row', 
+    alignItems: 'flex-end', 
+    backgroundColor: theme.colors.card, 
+    borderTopWidth: 1, 
+    borderTopColor: theme.colors.border, 
+    padding: theme.spacing.md, 
+    paddingTop: theme.spacing.md, 
+    paddingBottom: Platform.OS === 'ios' ? 34 : theme.spacing.md 
   },
-  userBubble: {
-    backgroundColor: theme.colors.primary,
-    borderBottomRightRadius: 4,
-  },
-  aiBubble: {
-    backgroundColor: theme.colors.card,
-    borderBottomLeftRadius: 4,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-  },
-  messageText: {
-    fontSize: 16,
-    lineHeight: 22,
-  },
-  userText: {
-    color: '#121212',
-    fontWeight: '500',
-  },
-  aiText: {
-    color: theme.colors.text,
-  },
-  
-  // Typing Indicator
-  typingContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 24,
-  },
-  typingBubble: {
-    backgroundColor: theme.colors.card,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-    borderRadius: 16,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    marginLeft: 12,
-  },
-  typingText: {
-    fontSize: 14,
-    color: theme.colors.textSecondary,
-    fontStyle: 'italic',
-  },
-  
-  // Confirmation
-  confirmationWrapper: {
-    paddingLeft: 48,
-    marginTop: 12,
-  },
-  confirmationCard: {
-    backgroundColor: theme.colors.card,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-    borderRadius: 16,
-    padding: 16,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 6,
-    elevation: 3,
-  },
-  confirmationMessage: {
-    fontSize: 15,
-    color: theme.colors.text,
-    marginBottom: 16,
-    textAlign: 'center',
-    fontWeight: '500',
-  },
-  confirmationButtons: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  confirmationButton: {
-    flex: 1,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    borderRadius: 12,
-    alignItems: 'center',
-  },
-  confirmButton: {
-    backgroundColor: theme.colors.success,
-  },
-  confirmText: {
-    color: '#121212',
-    fontWeight: '700',
-    fontSize: 14,
-  },
-  cancelButton: {
-    backgroundColor: theme.colors.surfaceHigh,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-  },
-  cancelText: {
-    color: theme.colors.text,
-    fontWeight: '600',
-    fontSize: 14,
-  },
-  
-  // Actions
-  actionsWrapper: {
-    paddingLeft: 48,
-    marginTop: 12,
-    gap: 8,
-  },
-  actionButton: {
-    backgroundColor: 'rgba(74, 227, 168, 0.1)',
-    borderWidth: 1,
-    borderColor: 'rgba(74, 227, 168, 0.3)',
-    borderRadius: 12,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    alignSelf: 'flex-start',
-  },
-  actionButtonText: {
-    color: theme.colors.primary,
-    fontSize: 14,
-    fontWeight: '600',
-  },
-  
-  // Quick Actions
-  quickActionsContainer: {
-    backgroundColor: theme.colors.card,
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.border,
-    paddingVertical: 12,
-  },
-  quickActionsContent: {
-    paddingHorizontal: 16,
-    gap: 8,
-  },
-  quickActionButton: {
+  textInput: { 
+    flex: 1, 
+    borderWidth: 1, 
+    borderColor: theme.colors.border, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingHorizontal: theme.spacing.md, 
+    paddingVertical: theme.spacing.md, 
+    fontSize: 16, 
+    maxHeight: 100, 
+    marginRight: theme.spacing.md, 
     backgroundColor: theme.colors.surfaceMid,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-    borderRadius: 16,
-    paddingHorizontal: 16,
-    paddingVertical: 8,
+    color: theme.colors.text
   },
-  quickActionText: {
-    color: theme.colors.text,
-    fontSize: 13,
-    fontWeight: '500',
+  sendButton: { 
+    backgroundColor: theme.colors.primary, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingHorizontal: 20, 
+    paddingVertical: 12, 
+    justifyContent: 'center', 
+    alignItems: 'center',
+    ...theme.shadows.small
   },
-  
-  // Input Section
-  inputSection: {
-    backgroundColor: theme.colors.card,
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.border,
-    paddingHorizontal: 16,
-    paddingTop: 12,
-    paddingBottom: Platform.OS === 'ios' ? 34 : 12,
-  },
-  inputWrapper: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    backgroundColor: theme.colors.surfaceMid,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.05,
-    shadowRadius: 4,
-    elevation: 2,
-  },
-  textInput: {
-    flex: 1,
-    fontSize: 16,
-    color: theme.colors.text,
-    paddingVertical: 8,
-    maxHeight: 100,
-  },
-  sendButton: {
-    backgroundColor: theme.colors.primary,
-    borderRadius: 16,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    marginLeft: 8,
-    shadowColor: theme.colors.primary,
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  sendButtonDisabled: {
+  sendButtonDisabled: { 
     backgroundColor: theme.colors.surfaceHigh,
-    shadowOpacity: 0,
-    elevation: 0,
+    opacity: 0.5
   },
-  sendButtonText: {
-    color: '#121212',
+  sendButtonText: { 
+    color: '#121212', 
+    fontSize: 16, 
+    fontWeight: '600' 
+  },
+  sendButtonTextDisabled: { 
+    color: theme.colors.textSecondary 
+  },
+  actionsContainer: { 
+    flexDirection: 'row', 
+    flexWrap: 'wrap', 
+    marginTop: theme.spacing.sm, 
+    justifyContent: 'flex-start', 
+    marginLeft: theme.spacing.sm 
+  },
+  actionButton: { 
+    borderRadius: theme.borderRadius.md, 
+    paddingVertical: theme.spacing.sm, 
+    paddingHorizontal: theme.spacing.md, 
+    marginRight: theme.spacing.sm, 
+    marginBottom: theme.spacing.sm, 
+    borderWidth: 1,
+    borderColor: theme.colors.primary,
+    backgroundColor: 'rgba(74, 227, 168, 0.1)'
+  },
+  actionButtonText: { 
+    fontWeight: '600', 
     fontSize: 14,
-    fontWeight: '700',
+    color: theme.colors.primary
   },
-  sendButtonTextDisabled: {
-    color: theme.colors.textSecondary,
+  confirmationContainer: { 
+    marginTop: theme.spacing.sm, 
+    marginLeft: theme.spacing.sm, 
+    padding: theme.spacing.md, 
+    backgroundColor: theme.colors.surfaceMid, 
+    borderRadius: theme.borderRadius.md, 
+    width: '80%',
+    borderWidth: 1,
+    borderColor: theme.colors.border
+  },
+  confirmationText: { 
+    fontSize: 15, 
+    color: theme.colors.text, 
+    marginBottom: theme.spacing.md, 
+    fontWeight: '500', 
+    textAlign: 'center' 
+  },
+  confirmationButtonRow: { 
+    flexDirection: 'row', 
+    justifyContent: 'space-around' 
+  },
+  confirmButton: { 
+    backgroundColor: theme.colors.success, 
+    borderColor: 'rgba(74, 227, 168, 0.3)' 
+  },
+  confirmButtonText: { 
+    color: '#121212',
+    fontWeight: '600'
+  },
+  cancelButton: { 
+    backgroundColor: theme.colors.surfaceHigh, 
+    borderColor: theme.colors.border 
+  },
+  cancelButtonText: { 
+    color: theme.colors.text 
+  },
+  persistentActionsContainer: { 
+    paddingVertical: theme.spacing.sm, 
+    backgroundColor: theme.colors.card, 
+    borderTopWidth: 1, 
+    borderTopColor: theme.colors.border 
+  },
+  persistentActionButton: { 
+    backgroundColor: theme.colors.surfaceMid, 
+    borderRadius: theme.borderRadius.lg, 
+    paddingVertical: theme.spacing.sm, 
+    paddingHorizontal: theme.spacing.md, 
+    marginRight: theme.spacing.sm,
+    borderWidth: 1,
+    borderColor: theme.colors.border
+  },
+  persistentActionButtonText: { 
+    color: theme.colors.text, 
+    fontWeight: '500', 
+    fontSize: 14 
   },
 });
 
