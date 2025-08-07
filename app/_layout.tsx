@@ -52,6 +52,7 @@ export default function RootLayout() {
             <Stack.Screen name="buy-token/[id]" options={{ headerShown: false }} />
             <Stack.Screen name="sell-token/[id]" options={{ headerShown: false }} />
             <Stack.Screen name="buy-success" options={{ headerShown: false }} />
+            <Stack.Screen name="lina-chat" options={{ headerShown: false }} />
             <Stack.Screen name="sell-success" options={{ headerShown: false }} />
             <Stack.Screen name="personal-info" options={{ headerShown: false }} />
             <Stack.Screen name="payment-methods" options={{ headerShown: false }} />
