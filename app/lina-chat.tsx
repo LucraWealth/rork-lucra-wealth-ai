@@ -1,43 +1,30 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { ArrowLeft, MessageSquare } from 'lucide-react-native';
+import { ArrowLeft, Sparkles } from 'lucide-react-native';
 import { theme } from '@/constants/theme';
 import LinaAI from '@/components/LinaAI';
-import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
-
-// Import the Message interface from LinaAI component
-interface Message {
-  id: string;
-  text: string;
-  sender: 'user' | 'ai';
-}
+import Animated, { useAnimatedStyle, useSharedValue, withTiming, withSpring } from 'react-native-reanimated';
 
 export default function LinaChatScreen() {
   const router = useRouter();
   const fadeAnim = useSharedValue(0);
-  
-  // Initial welcome message
-  const initialMessages: Message[] = [
-    {
-      id: '1',
-      text: 'Hi! I\'m Lina, your AI financial assistant. How can I help you manage your finances today?',
-      sender: 'ai',
-    },
-  ];
+  const scaleAnim = useSharedValue(0.95);
 
   useEffect(() => {
-    // Fade in animation
-    fadeAnim.value = withTiming(1, { duration: 300 });
+    fadeAnim.value = withTiming(1, { duration: 600 });
+    scaleAnim.value = withSpring(1, {
+      damping: 15,
+      stiffness: 150,
+    });
   }, []);
 
-  const animatedStyle = useAnimatedStyle(() => {
-    return {
-      opacity: fadeAnim.value,
-    };
-  });
+  const animatedStyle = useAnimatedStyle(() => ({
+    opacity: fadeAnim.value,
+    transform: [{ scale: scaleAnim.value }],
+  }));
 
   const handleGoBack = () => {
     router.back();
@@ -47,25 +34,31 @@ export default function LinaChatScreen() {
     <View style={styles.container}>
       <StatusBar style="light" />
       <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
+        {/* Clean Premium Header */}
         <View style={styles.header}>
-          <TouchableOpacity 
-            style={styles.backButton} 
-            onPress={handleGoBack}
-            testID="back-button"
-          >
-            <ArrowLeft size={24} color={theme.colors.text} />
+          <TouchableOpacity style={styles.backButton} onPress={handleGoBack}>
+            <ArrowLeft size={20} color={theme.colors.text} strokeWidth={2.5} />
           </TouchableOpacity>
-          <View style={styles.titleContainer}>
-            <Text style={styles.title}>LINA</Text>
-            <Text style={styles.subtitle}>Your AI Financial Assistant</Text>
+          
+          <View style={styles.headerCenter}>
+            <View style={styles.titleRow}>
+              <View style={styles.aiIcon}>
+                <Sparkles size={16} color={theme.colors.primary} />
+              </View>
+              <Text style={styles.title}>Lina</Text>
+            </View>
+            <Text style={styles.subtitle}>AI Financial Assistant</Text>
           </View>
-          <View style={styles.iconContainer}>
-            <MessageSquare size={24} color={theme.colors.primary} />
+          
+          <View style={styles.statusContainer}>
+            <View style={styles.statusDot} />
+            <Text style={styles.statusText}>Online</Text>
           </View>
         </View>
         
+        {/* Chat Content */}
         <Animated.View style={[styles.content, animatedStyle]}>
-          <LinaAI initialMessages={initialMessages} />
+          <LinaAI />
         </Animated.View>
       </SafeAreaView>
     </View>
@@ -80,44 +73,100 @@ const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
   },
+  
+  // Clean Header
   header: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: theme.spacing.lg,
-    paddingVertical: theme.spacing.md,
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    backgroundColor: theme.colors.card,
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(255, 255, 255, 0.1)',
+    borderBottomColor: theme.colors.border,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 8,
+    elevation: 2,
   },
+  
   backButton: {
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: theme.colors.surfaceMid,
+    borderWidth: 1,
+    borderColor: theme.colors.border,
+  },
+  
+  headerCenter: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  titleContainer: {
+  
+  titleRow: {
+    flexDirection: 'row',
     alignItems: 'center',
+    gap: 8,
   },
+  
+  aiIcon: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    backgroundColor: 'rgba(74, 227, 168, 0.15)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(74, 227, 168, 0.3)',
+  },
+  
   title: {
-    ...theme.typography.h3,
+    fontSize: 20,
     fontWeight: '700',
     color: theme.colors.text,
+    letterSpacing: 0.5,
   },
+  
   subtitle: {
-    ...theme.typography.caption,
-    color: theme.colors.primary,
+    fontSize: 12,
+    color: theme.colors.textSecondary,
     marginTop: 2,
+    fontWeight: '500',
   },
-  iconContainer: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: 'rgba(74, 143, 231, 0.1)',
+  
+  statusContainer: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: theme.colors.surfaceMid,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: theme.colors.border,
+    gap: 4,
   },
+  
+  statusDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: theme.colors.success,
+  },
+  
+  statusText: {
+    fontSize: 10,
+    color: theme.colors.textSecondary,
+    fontWeight: '600',
+  },
+  
   content: {
     flex: 1,
   },
