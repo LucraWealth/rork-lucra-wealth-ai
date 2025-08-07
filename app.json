@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Lucra Wealth AI",
-    "slug": "lucrawealth-i47c4f7b",
+    "slug": "lucrawealth-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealth-i47c4f7b"
+      "bundleIdentifier": "app.rork.lucrawealth-ai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealth-i47c4f7b"
+      "package": "app.rork.lucrawealth-ai"
     },
     "plugins": [
       "expo-router",
