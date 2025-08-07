@@ -1,32 +1,30 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet, TouchableOpacity, Text, Animated } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { ArrowLeft, Sparkles } from 'lucide-react-native';
 import { theme } from '@/constants/theme';
 import LinaAI from '@/components/LinaAI';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming, withSpring } from 'react-native-reanimated';
 
 export default function LinaChatScreen() {
   const router = useRouter();
-  const fadeAnim = React.useRef(new Animated.Value(0)).current;
-  const scaleAnim = React.useRef(new Animated.Value(0.95)).current;
+  const fadeAnim = useSharedValue(0);
+  const scaleAnim = useSharedValue(0.95);
 
   useEffect(() => {
-    Animated.parallel([
-      Animated.timing(fadeAnim, {
-        toValue: 1,
-        duration: 600,
-        useNativeDriver: true,
-      }),
-      Animated.spring(scaleAnim, {
-        toValue: 1,
-        tension: 150,
-        friction: 8,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  }, [fadeAnim, scaleAnim]);
+    fadeAnim.value = withTiming(1, { duration: 600 });
+    scaleAnim.value = withSpring(1, {
+      damping: 15,
+      stiffness: 150,
+    });
+  }, []);
+
+  const animatedStyle = useAnimatedStyle(() => ({
+    opacity: fadeAnim.value,
+    transform: [{ scale: scaleAnim.value }],
+  }));
 
   const handleGoBack = () => {
     router.back();
@@ -59,13 +57,7 @@ export default function LinaChatScreen() {
         </View>
         
         {/* Chat Content */}
-        <Animated.View style={[
-          styles.content,
-          {
-            opacity: fadeAnim,
-            transform: [{ scale: scaleAnim }],
-          },
-        ]}>
+        <Animated.View style={[styles.content, animatedStyle]}>
           <LinaAI />
         </Animated.View>
       </SafeAreaView>
