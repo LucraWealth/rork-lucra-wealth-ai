@@ -21,9 +21,7 @@ interface AISuccessResponse {
     private baseURL: string;
   
     constructor() {
-      // --- THIS IS THE MOST IMPORTANT LINE ---
-      // Replace '192.168.2.35' with your computer's actual local IP address.
-      // Your Python server logs show this address when it starts up.
+      // Use a production URL for the AI service
       this.baseURL = 'https://lucra-wealth-ai-lina.onrender.com'; 
     }
   
@@ -70,7 +68,7 @@ interface AISuccessResponse {
         // Return a standardized error object that matches our AIFailResponse type.
         return {
           success: false,
-          response: 'I\'m sorry, but I\'m having trouble connecting to my brain right now. Please make sure the AI server is running and you\'re on the same network.',
+          response: 'I\'m sorry, but I\'m having trouble connecting right now. Please try again later.',
           error: error instanceof Error ? error.message : String(error),
         };
       }
