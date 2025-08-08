@@ -10,7 +10,7 @@ import {
   StyleSheet,
   ActivityIndicator,
 } from 'react-native';
-import { v4 as uuidv4 } from 'uuid';
+
 
 import { useWalletStore } from '@/store/walletStore';
 import aiService from '@/services/aiService';
@@ -58,7 +58,7 @@ const LinaAI: React.FC = () => {
   const [actionToConfirm, setActionToConfirm] = useState<ActionToConfirm | null>(null);
 
   // Generate a unique, persistent session ID for this chat instance.
-  const [sessionId] = useState(uuidv4());
+  const [sessionId] = useState(() => Date.now().toString() + Math.random().toString(36).substr(2, 9));
 
   // Use individual selectors for each piece of state and action for performance.
   const balance = useWalletStore((state) => state.balance);
@@ -158,7 +158,7 @@ const LinaAI: React.FC = () => {
           } else {
             aiResponseText = response.response;
           }
-        } catch (e) {
+        } catch {
           aiResponseText = response.response;
         }
       }
