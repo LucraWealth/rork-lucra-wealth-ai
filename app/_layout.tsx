@@ -1,4 +1,3 @@
-import 'react-native-get-random-values';
 import { Stack } from 'expo-router';
 import { useEffect } from 'react';
 import { useColorScheme, Platform, View } from 'react-native';
