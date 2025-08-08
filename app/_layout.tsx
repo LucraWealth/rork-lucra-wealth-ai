@@ -88,7 +88,6 @@ export default function RootLayout() {
             <Stack.Screen name="notification-settings" options={{ headerShown: false }} />
             <Stack.Screen name="bill-payment-confirm" options={{ headerShown: false }} />
             <Stack.Screen name="expense-category/[category]" options={{ headerShown: false }} />
-            <Stack.Screen name="lina-chat" options={{ headerShown: false }} />
           </Stack>
         </View>
       </GestureHandlerRootView>
