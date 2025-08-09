@@ -1,13 +1,10 @@
 {
-  "buildCommand": "expo export -p web",
+  "buildCommand": "expo publish",
   "outputDirectory": "dist",
-  "devCommand": "expo",
+  "devCommand": "expo start",
   "cleanUrls": true,
   "framework": null,
   "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/"
-    }
+    { "source": "/:path*", "destination": "/" }
   ]
 }
