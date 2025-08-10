@@ -1,7 +1,7 @@
 {
-  "buildCommand": "expo export --platform all --clear",
+  "buildCommand": "expo export -p web",
   "outputDirectory": "dist",
-  "devCommand": "expo start --tunnel",
+  "devCommand": "expo start --web",
   "cleanUrls": true,
   "framework": null,
   "rewrites": [

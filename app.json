@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealth-ai"
+      "bundleIdentifier": "app.rork.lucrawealthai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealth-ai"
+      "package": "app.rork.lucrawealthai"
     },
     "plugins": [
       "expo-router",
