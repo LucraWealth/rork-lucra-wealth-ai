@@ -1,10 +1,13 @@
 import { Stack } from 'expo-router';
-import { Platform, View } from 'react-native';
+import { useEffect } from 'react';
+import { useColorScheme, Platform, View } from 'react-native';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { theme } from '@/constants/theme';
 
 export default function RootLayout() {
+  const colorScheme = useColorScheme();
+
   return (
     <ThemeProvider>
       <GestureHandlerRootView style={{ flex: 1, backgroundColor: theme.colors.background }}>
@@ -27,9 +30,8 @@ export default function RootLayout() {
                 contentStyle: { backgroundColor: theme.colors.background }
               }} 
             />
-
+            <Stack.Screen name="index" options={{ headerShown: false }} />
             <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-            <Stack.Screen name="onboarding" options={{ headerShown: false }} />
             <Stack.Screen name="auth/login" options={{ headerShown: false }} />
             <Stack.Screen name="auth/signup" options={{ headerShown: false }} />
             <Stack.Screen name="send-money" options={{ headerShown: false }} />

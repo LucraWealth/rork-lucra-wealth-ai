@@ -44,13 +44,12 @@ const { width: screenWidth } = Dimensions.get("window");
 
 export default function HomeScreen() {
   const router = useRouter();
-  const { user, isAuthenticated } = useAuthStore();
+  const { user } = useAuthStore();
   const { balance, transactions, cashback, budgetCategories, updateBudgetSpending } = useWalletStore();
   const [refreshing, setRefreshing] = useState(false);
   const [hideCardDetails, setHideCardDetails] = useState(true);
   const [showSideMenu, setShowSideMenu] = useState(false);
   const [showBalanceView, setShowBalanceView] = useState(true);
-  const [isReady, setIsReady] = useState(false);
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const balanceViewOpacity = useRef(new Animated.Value(1)).current;
   const transactionsViewOpacity = useRef(new Animated.Value(0)).current;
@@ -68,42 +67,24 @@ export default function HomeScreen() {
   const budgetPercentage = totalBudget > 0 ? (totalSpent / totalBudget) * 100 : 0;
   const budgetRemaining = totalBudget - totalSpent;
 
-  // Wait for component to mount before checking authentication
   useEffect(() => {
-    setIsReady(true);
+    // Update budget spending when component mounts
+    updateBudgetSpending();
+    
+    // Initial fade-in animation
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 800,
+      useNativeDriver: true,
+    }).start();
+    
+    // Screen entry animation
+    Animated.timing(screenFadeAnim, {
+      toValue: 1,
+      duration: 300,
+      useNativeDriver: true,
+    }).start();
   }, []);
-
-  // Only navigate after component is mounted
-  useEffect(() => {
-    if (isReady && !isAuthenticated) {
-      // Use setTimeout to ensure navigation happens after render
-      const timer = setTimeout(() => {
-        router.replace("/onboarding");
-      }, 0);
-      return () => clearTimeout(timer);
-    }
-  }, [isReady, isAuthenticated, router]);
-
-  useEffect(() => {
-    if (isAuthenticated) {
-      // Update budget spending when component mounts
-      updateBudgetSpending();
-      
-      // Initial fade-in animation
-      Animated.timing(fadeAnim, {
-        toValue: 1,
-        duration: 800,
-        useNativeDriver: true,
-      }).start();
-      
-      // Screen entry animation
-      Animated.timing(screenFadeAnim, {
-        toValue: 1,
-        duration: 300,
-        useNativeDriver: true,
-      }).start();
-    }
-  }, [isAuthenticated]);
 
   const onRefresh = React.useCallback(() => {
     setRefreshing(true);
