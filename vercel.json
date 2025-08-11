@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf node_modules .expo dist .next && bun install --force && bun run reset-cache && expo export -p web",
+  "buildCommand": "rm -rf node_modules .expo dist .next && bun install --force && expo export -p web",
   "outputDirectory": "dist",
   "devCommand": "expo start --clear",
   "cleanUrls": true,
