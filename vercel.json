@@ -1,5 +1,5 @@
 {
-	"buildCommand": "bun i && expo export -p web --clear",  
+	"buildCommand": "bun install && expo export -p web --clear",  
   "outputDirectory": "dist",
   "devCommand": "expo",
   "cleanUrls": true,
