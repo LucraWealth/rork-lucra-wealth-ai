@@ -2,7 +2,9 @@
 
 # dependencies
 node_modules/
-# Python
+
+# Python backend (exclude from React Native build)
+LucraWealthAI/
 __pycache__/
 *.pyc
 *.pyo
