@@ -1,13 +1,34 @@
 {
-  "buildCommand": "rm -rf node_modules bun.lockb bun.lock .expo && bun pm cache rm && bun install && expo export -p web",
+  "buildCommand": "rm -rf node_modules .expo dist && bun install --force && expo export -p web",
   "outputDirectory": "dist",
   "devCommand": "expo start",
   "cleanUrls": true,
   "framework": null,
+  "installCommand": "bun install --force",
+  "env": {
+    "EXPO_NO_CACHE": "1",
+    "EXPO_NO_DOTENV": "1"
+  },
+  "functions": {
+    "app/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
     }
   ]
 }
