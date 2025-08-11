@@ -17,8 +17,6 @@
       "supportsTablet": true,
       "bundleIdentifier": "app.rork.lucrawealthai",
       "newArchEnabled": false
-      "bundleIdentifier": "app.rork.lucrawealthai",
-      "newArchEnabled": false
     },
     "android": {
       "adaptiveIcon": {
