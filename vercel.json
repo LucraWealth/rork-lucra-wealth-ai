@@ -1,5 +1,5 @@
 {
-	"buildCommand": "rm -rf node_modules bun.lockb .expo && bun install && bun expo publish --clear && expo export -p web",  
+	"buildCommand": "rm -rf node_modules bun.lockb .expo && bun install && bun expo publish --clear && expo export -p web --clear",  
   "outputDirectory": "dist",
   "devCommand": "expo",
   "cleanUrls": true,
