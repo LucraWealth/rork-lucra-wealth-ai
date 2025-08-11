@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf node_modules .expo dist ",
+  "buildCommand": "rm -rf node_modules .expo dist",
   "outputDirectory": "dist",
   "devCommand": "expo start --clear",
   "cleanUrls": true,
