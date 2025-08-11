@@ -1,5 +1,5 @@
 {
-	"buildCommand": "rm -rf node_modules bun.lockb .expo yarn.lock && bun pm cache rm && bun install && expo export -p web",  
+	"buildCommand": "rm -rf node_modules bun.lockb .expo yarn.lock && bun pm cache rm && bun install && bun expo export -p web",  
   "outputDirectory": "dist",
   "devCommand": "expo",
   "cleanUrls": true,
