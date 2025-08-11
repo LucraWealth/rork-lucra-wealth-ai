@@ -15,17 +15,20 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealthai"
+      "bundleIdentifier": "app.rork.lucrawealthai",
+      "newArchEnabled": false
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealthai"
+      "package": "app.rork.lucrawealthai",
+      "newArchEnabled": false
     },
     "plugins": [
       "expo-router",
+      "expo-web-browser",
       "expo-font"
     ],
     "experiments": {
