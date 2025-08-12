@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf node_modules bun.lockb .expo && bun pm cache rm && bun install && bunx rork build -p h8uxhgy2bzfo4i47c4f7b",
+  "buildCommand": "bunx rork build -p h8uxhgy2bzfo4i47c4f7b --clear",
   "outputDirectory": "dist",
   "devCommand": "bunx rork start -p h8uxhgy2bzfo4i47c4f7b --tunnel",
   "cleanUrls": true,
