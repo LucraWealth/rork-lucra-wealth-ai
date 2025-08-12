@@ -1,7 +1,7 @@
 {
-  "buildCommand": "bunx rork build -p h8uxhgy2bzfo4i47c4f7b",
+  "buildCommand": "bunx rork build -p h8uxhgy2bzfo4i47c4f7b --web --tunnel",
   "outputDirectory": "dist",
-  "devCommand": "bunx rork start -p h8uxhgy2bzfo4i47c4f7b --tunnel",
+  "devCommand": "bunx rork start -p h8uxhgy2bzfo4i47c4f7b --tunnel ",
   "cleanUrls": true,
   "framework": null,
   "rewrites": [
