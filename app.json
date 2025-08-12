@@ -28,12 +28,7 @@
       "package": "app.rork.lucrawealthai"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://rork.com/"
-        }
-      ],
+      "expo-router",
       "expo-web-browser",
       "expo-font"
     ],
