@@ -1,53 +1,13 @@
 {
-  "buildCommand": "expo export -p web",
+  "buildCommand": "rm -rf node_modules bun.lockb bun.lock .expo && bun pm cache rm && bun install && expo export -p web",
   "outputDirectory": "dist",
-  "devCommand": "expo",
+  "devCommand": "expo start",
   "cleanUrls": true,
   "framework": null,
-  "installCommand": "rm -rf node_modules bun.lockb && bun install --force",
-  "env": {
-    "EXPO_NO_CACHE": "1",
-    "EXPO_NO_DOTENV": "1",
-    "EXPO_NO_METRO_CACHE": "1",
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "app/**/*.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     {
-      "source": "/((?!_next|favicon.ico|.*\\.).*)",
+      "source": "/:path*",
       "destination": "/"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, no-store, must-revalidate, max-age=0"
-        },
-        {
-          "key": "Pragma",
-          "value": "no-cache"
-        },
-        {
-          "key": "Expires",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "source": "/_next/static/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache"
-        }
-      ]
     }
   ]
 }
