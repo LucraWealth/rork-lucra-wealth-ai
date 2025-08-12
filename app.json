@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -18,19 +18,22 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealthai",
-      "newArchEnabled": false
+      "bundleIdentifier": "app.rork.lucrawealthai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealthai",
-      "newArchEnabled": false
+      "package": "app.rork.lucrawealthai"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-router",
+        {
+          "origin": "https://rork.com/"
+        }
+      ],
       "expo-web-browser",
       "expo-font"
     ],
