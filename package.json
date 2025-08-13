@@ -7,7 +7,8 @@
     "start-web": "bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel",
     "start-web-dev": "DEBUG=expo* bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel",
     "build": "expo export -p web --clear",
-    "build-web": "rm -rf dist && expo export -p web --clear"
+    "build-web": "rm -rf dist && expo export -p web --clear",
+    "build-rork": "rm -rf node_modules bun.lock .expo dist && bun install && expo export -p web --clear"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
