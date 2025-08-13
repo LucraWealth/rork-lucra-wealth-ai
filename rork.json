@@ -1,8 +1,0 @@
-{
-  "buildCommand": "bun run build-rork",
-  "outputDirectory": "dist",
-  "devCommand": "bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel",
-  "framework": "expo",
-  "installCommand": "bun install",
-  "buildScript": "build-rork"
-}
