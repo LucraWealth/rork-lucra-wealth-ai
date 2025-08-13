@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealthai.try"
+      "bundleIdentifier": "app.rork.lucrawealthai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealthai.try"
+      "package": "app.rork.lucrawealthai"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
