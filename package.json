@@ -3,9 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "rm -rf node_modules && bun install && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --tunnel --go",
-    "start-web": "rm -rf node_modules && bun install && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel --go",
-    "start-web-dev": "rm -rf node_modules && bun install && DEBUG=expo* bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel --go"
+    "start": "rm -rf node_modules && bun install && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --tunnel",
+    "start-web": "rm -rf node_modules && bun install && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel",
+    "start-web-dev": "rm -rf node_modules && bun install && DEBUG=expo* bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --tunnel"
   },
   "dependencies": {
     "@expo/config-plugins": "~10.1.1",
