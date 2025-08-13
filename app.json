@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Lucra Wealth AI",
-    "slug": "lucrawealthai-try",
+    "slug": "lucrawealthai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealthai"
+      "bundleIdentifier": "app.rork.lucrawealthai.try"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealthai"
+      "package": "app.rork.lucrawealthai.try"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
