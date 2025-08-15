@@ -47,6 +47,7 @@ export default function ProfileScreen() {
     router.push("/logout-confirm");
   };
 
+  
   const openExternalLink = async (url: string) => {
     const supported = await Linking.canOpenURL(url);
     
