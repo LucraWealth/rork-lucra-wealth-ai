@@ -3,9 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "rm -rf node_modules && npm cache clean --force && npm install && watchman watch-del-all && rm -rf $TMPDIR/haste-map-* && rm -rf $TMPDIR/metro-cache && npx expo start --clear && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --clear --tunnel",
-    "start-web": "rm -rf node_modules && npm cache clean --force && npm install && watchman watch-del-all && rm -rf $TMPDIR/haste-map-* && rm -rf $TMPDIR/metro-cache && npx expo start --clear && bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --clear --tunnel",
-    "start-web-dev": "rm -rf node_modules && npm cache clean --force && npm install && watchman watch-del-all && rm -rf $TMPDIR/haste-map-* && rm -rf $TMPDIR/metro-cache && npx expo start --clear && DEBUG=expo* bunx rork start -p h8uxhgy2bzfo4i47c4f7b --web --clear --tunnel"
+      "start": "expo start --tunnel",
+    "start-web": "expo start --web --tunnel",
+    "start-web-dev": "DEBUG=expo* expo start --web --tunnel"
   },
   "dependencies": {
     "@expo/config-plugins": "~10.1.1",
