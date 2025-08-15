@@ -11,10 +11,12 @@
     "@expo/vector-icons": "^14.1.0",
     "@react-native-async-storage/async-storage": "2.1.2",
     "@react-native-community/datetimepicker": "8.4.1",
+    "@types/react": "~19.0.10",
     "date-fns": "^3.6.0",
     "expo": "^53.0.20",
     "expo-blur": "~14.1.5",
     "expo-constants": "~17.1.7",
+    "expo-doctor": "^1.13.5",
     "expo-font": "~13.3.2",
     "expo-haptics": "~14.1.4",
     "expo-image": "~2.4.0",
@@ -46,7 +48,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@types/react": "~19.0.10",
     "@types/uuid": "^9.0.8",
     "tailwindcss": "3.3.2",
     "typescript": "~5.8.3"
