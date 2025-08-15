@@ -1,12 +1,13 @@
 {
   "expo": {
     "name": "Lucra Wealth AI",
-    "slug": "lucrawealthai",
+    "slug": "lucrawealth-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -14,22 +15,19 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.lucrawealthai"
+      "bundleIdentifier": "app.rork.lucrawealth-ai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.lucrawealthai"
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png"
+      "package": "app.rork.lucrawealth-ai"
     },
     "plugins": [
       "expo-router",
-      "expo-web-browser",
-      "expo-font"
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true

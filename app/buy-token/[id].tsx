@@ -224,7 +224,6 @@ export default function BuyTokenScreen() {
         </View>
       </Card>
 
-
       <View style={styles.quickAmounts}>
         <Text style={styles.quickAmountsLabel}>Quick amounts</Text>
         <View style={styles.quickAmountsRow}>

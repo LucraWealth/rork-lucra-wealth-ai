@@ -1,9 +1,19 @@
-# Dependencies
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-bun.lockb
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-selfcheck.json
+*.egg-info/
+.DS_Store
 
 # Expo
 .expo/
@@ -22,7 +32,7 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
-# Debug
+# debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
@@ -36,10 +46,4 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
-# Vercel
 .vercel
-
-# Temporary files
-*.tmp
-*.temp
