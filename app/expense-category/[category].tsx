@@ -164,6 +164,7 @@ export default function ExpenseCategoryScreen() {
               style={[styles.periodOption, selectedPeriod === "year" && styles.periodOptionSelected]}
               onPress={() => handlePeriodChange("year")}
             >
+              
               <Text style={[styles.periodText, selectedPeriod === "year" && styles.periodTextSelected]}>
                 Year
               </Text>
